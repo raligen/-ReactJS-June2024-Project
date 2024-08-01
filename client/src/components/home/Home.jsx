@@ -1,10 +1,8 @@
-import Navbar from "../navbar/Navbar";
 import HomeHeader from "../home-header/HomeHeader";
 
 export default function Home(){
     return (
         <>
-        <Navbar />
         <HomeHeader />
         <div className="container pt-4 pb-4">
           <div className="row">

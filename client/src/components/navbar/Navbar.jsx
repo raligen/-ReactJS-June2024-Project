@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar(){
     return (
         <nav className="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div className="container">
-          <a className="navbar-brand" href="./index.html">
-            <strong>News Create Website</strong>
-          </a>
+          <Link className="navbar-brand" to="/">
+            <strong>NewsCreate</strong>
+          </Link>
           <button
             className="navbar-toggler collapsed"
             type="button"
@@ -19,15 +21,28 @@ export default function Navbar(){
           <div className="navbar-collapse collapse" id="navbarColor02" style={{}}>
             <ul className="navbar-nav mr-auto d-flex align-items-center">
               <li className="nav-item">
-                <a className="nav-link" href="./index.html">
+                <Link className="nav-link" to="/">
                   Home <span className="sr-only">(current)</span>
-                </a>
+                </Link>
               </li>
+              
+              <li className="nav-item dropdown">
+                <Link className="nav-link dropdown-toggle" to="/categories" id="navbarDropdown" role="button" aria-expanded="false">
+                    Categories
+                </Link>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a className="dropdown-item" to="#">Politics</a></li>
+                    <li><a className="dropdown-item" to="#">Business</a></li>
+                    <li><a className="dropdown-item" to="#">Technology</a></li>
+                </ul>
+              </li>
+                      
               <li className="nav-item">
                 <a className="nav-link" href="./article.html">
                   Politics
                 </a>
               </li>
+
               <li className="nav-item">
                 <a className="nav-link" href="./article.html">
                   Business
@@ -43,7 +58,7 @@ export default function Navbar(){
               <li className="nav-item highlight">
                 <button
                   className="nav-link"
-                  href="https://www.wowthemes.net/mundana-free-html-bootstrap-template/"
+                  href=" "
                 >
                   Create an Article
                 </button>

@@ -13,3 +13,4 @@ REACTJS june 2024 news website project
 * Install react-router-dom
 * Setup react-router-dom
 * Add routes in App.jsx
+* Add links in the navbar
