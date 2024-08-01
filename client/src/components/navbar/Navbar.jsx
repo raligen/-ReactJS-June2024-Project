@@ -54,16 +54,50 @@ export default function Navbar(){
                 </a>
               </li>
             </ul>
-            <ul className="navbar-nav ml-auto d-flex align-items-center">
+
+           
+              <ul id="guest" className="navbar-nav ml-auto d-flex align-items-center">
               <li className="nav-item highlight">
                 <button
                   className="nav-link"
-                  href=" "
+                  to="/register"
                 >
-                  Create an Article
+                  Register
+                </button>
+              </li>
+              <li className="nav-item highlight">
+                <button
+                  className="nav-link"
+                  to="/login"
+                >
+                  Login
                 </button>
               </li>
             </ul>
+            
+
+            
+              <ul id="user" className="navbar-nav ml-auto d-flex align-items-center">
+              <li className="nav-item highlight">
+                <button
+                  className="nav-link"
+                  to="/create-news"
+                >
+                  Create News
+                </button>
+              </li>
+            
+              <li className="nav-item highlight">
+                <button
+                  className="nav-link"
+                  to="/logout"
+                >
+                  Logout
+                </button>
+              </li>
+            </ul>
+            
+
           </div>
         </div>
       </nav>
