@@ -18,7 +18,7 @@ export default function Navbar(){
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="navbar-collapse collapse" id="navbarColor02" style={{}}>
+          <div className="navbar-collapse collapse" id="navbarColor02">
             <ul className="navbar-nav mr-auto d-flex align-items-center">
               <li className="nav-item">
                 <Link className="nav-link" to="/">
@@ -31,33 +31,33 @@ export default function Navbar(){
                     Categories
                 </Link>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a className="dropdown-item" to="#">Politics</a></li>
-                    <li><a className="dropdown-item" to="#">Business</a></li>
-                    <li><a className="dropdown-item" to="#">Technology</a></li>
+                    <li><Link className="dropdown-item" to="/politics">Politics</Link></li>
+                    <li><Link className="dropdown-item" to="/business">Business</Link></li>
+                    <li><Link className="dropdown-item" to="/technology">Technology</Link></li>
                 </ul>
               </li>
                       
               <li className="nav-item">
-                <a className="nav-link" href="./article.html">
+                <Link className="nav-link" to="./politics">
                   Politics
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="./article.html">
+                <Link className="nav-link" to="./business">
                   Business
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="./article.html">
-                  Tech
-                </a>
+                <Link className="nav-link" to="./technology">
+                  Technology
+                </Link>
               </li>
             </ul>
 
            
               <ul id="guest" className="navbar-nav ml-auto d-flex align-items-center">
-              <li className="nav-item highlight">
+              <li className="nav-item highlight pl-1">
                 <button
                   className="nav-link"
                   to="/register"
@@ -65,9 +65,9 @@ export default function Navbar(){
                   Register
                 </button>
               </li>
-              <li className="nav-item highlight">
+              <li className="nav-item highlight pl-1">
                 <button
-                  className="nav-link"
+                  className="nav-link" style={{textDecoration: "underline"}}
                   to="/login"
                 >
                   Login
@@ -78,18 +78,17 @@ export default function Navbar(){
 
             
               <ul id="user" className="navbar-nav ml-auto d-flex align-items-center">
-              <li className="nav-item highlight">
-                <button
-                  className="nav-link"
-                  to="/create-news"
+              <li className="nav-item highlight pl-1">
+                <button className="btn btn-warning" 
+                  to="/create-news" 
                 >
                   Create News
                 </button>
               </li>
             
-              <li className="nav-item highlight">
+              <li className="nav-item highlight pl-1">
                 <button
-                  className="nav-link"
+                  className="nav-link" style={{textDecoration: "underline"}}
                   to="/logout"
                 >
                   Logout

@@ -1,6 +1,6 @@
 import ReadNext from "/src/components/read-next/ReadNext";
 
-export default function Business(){
+export default function Politics(){
     return (
       <div>
         <div className="container">
@@ -41,9 +41,8 @@ export default function Business(){
             </div>
           </div>
         </div>
-      </div>
-      
-      
+      </div>  
+  
       <div className="container pt-4 pb-4">
         <div className="row justify-content-center">
           <div className="col-md-12 col-lg-8">
@@ -73,13 +72,12 @@ export default function Business(){
                 leverage paradigm shift seed round entrepreneur crowdfunding social
                 proof angel investor partner network virality.
               </p>
-            </article>
-  
-      
+            </article>    
           </div>
         </div>
       </div>
+
       <ReadNext />
-      </div>
+    </div>
     );
 }

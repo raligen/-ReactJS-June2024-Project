@@ -1,31 +1,44 @@
-export default function Categories(){
+export default function Categories() {
     return (
-        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <>
+        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+        <ol className="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner shadow-sm rounded">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/demo/slide1.jpg" alt="First slide"/>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Mountains, Nature Collection</h5>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/demo/slide2.jpg" alt="Second slide"/>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Freedom, Sea Collection</h5>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/demo/slide3.jpg" alt="Third slide"/>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Living the Dream, Lost Island</h5>
-                </div>
-            </div>
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img className="d-block w-100" src="client\public\assets\img\katie-moum-politics.jpg" alt="Politics"/>
+            <div className="carousel-caption d-none d-md-block">
+                <h5>Politics</h5>
+                <p>Learn more about latest political developments.</p>
+            </div>   
+          </div>
+          <div className="carousel-item">
+            <img className="d-block w-100" src="client\public\assets\img\john-schnobrich-business.jpg" alt="Business"/>
+            <div className="carousel-caption d-none d-md-block">
+                <h5>Business</h5>
+                <p>Click here for latest news and analyses on investment and entrepreneurship.</p>
+            </div>   
+          </div>
+          <div className="carousel-item">
+            <img className="d-block w-100" src="/client/public/assets/img/alexander-shatov-technology.jpg." alt="Technology"/>
+            <div className="carousel-caption d-none d-md-block">
+                <h5>Technology</h5>
+                <p>Innovation never sleeps. Click here to learn more.</p>
+            </div>                
+          </div>
         </div>
-        </div>
+        <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="sr-only">Previous</span>
+        </a>
+        <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="sr-only">Next</span>
+        </a>
+      </div>
+      </>
     );
 }

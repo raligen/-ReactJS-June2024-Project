@@ -169,7 +169,8 @@ label {
   margin-bottom: 0.5rem; }
 
 button {
-  border-radius: 0; }
+  border-radius: 0;
+  background-color: white; }
 
 button:focus {
   outline: 1px dotted;
@@ -330,15 +331,6 @@ html {
 
 @-ms-viewport {
   width: device-width; }
-
-
-@media (min-width: 576px) {
-.dropdown:hover > .dropdown-menu {
-display:block;
-margin-top: 0;
-}
-}
-
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -3514,6 +3506,8 @@ input[type="button"].btn-block {
     text-decoration: none; }
   .nav-link.disabled {
     color: #6c757d; }
+
+
 
 .nav-tabs {
   border-bottom: 1px solid #dee2e6; }
@@ -8924,6 +8918,8 @@ a.text-dark:hover {
     background: #03a87c;
     color: #fff !important; }
 
+
+
 .navbar-brand {
   margin-right: 2rem;
   font-size: 1.25rem; }
@@ -9641,5 +9637,6 @@ ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > u
 
 ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child > ul > li:last-child::before {
   content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
+
 
 /*# sourceMappingURL=main.css.map */
