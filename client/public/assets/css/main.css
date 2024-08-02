@@ -349,6 +349,15 @@ body {
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
+.c-item {
+  height: 500px;
+}
+
+.c-img {
+    object-fit: cover;
+    height: 65%;
+}
+
 hr {
   box-sizing: content-box;
   height: 0;
