@@ -8,6 +8,9 @@ import Categories from './components/categories/Categories'
 import Politics from './components/categories/politics/Politics'
 import Business from './components/categories/business/Business'
 import Technology from './components/categories/technology/Technology'
+import ArticleForm from './components/article-form/ArticleForm';
+import Register from './components/register/Register';
+import Login from './components/login/Login';
 
 
 
@@ -23,9 +26,9 @@ function App() {
           <Route path='/politics' element={<Politics />}/>
           <Route path='/business' element={<Business />}/>
           <Route path='/technology' element={<Technology />}/>
-          {/* <Route path='/create-article' element={<CreateArticle />}/>
+          <Route path='/create-news' element={<ArticleForm />}/>
           <Route path='/register' element={<Register />}/>
-          <Route path='/login' element={<Login />}/> */}
+          <Route path='/login' element={<Login />}/> 
         </Routes>
       </main> 
 

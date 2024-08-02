@@ -58,20 +58,20 @@ export default function Navbar(){
            
               <ul id="guest" className="navbar-nav ml-auto d-flex align-items-center">
               <li className="nav-item highlight pl-1">
-                <button
+                <Link
                   className="nav-link"
                   to="/register"
                 >
                   Register
-                </button>
+                </Link>
               </li>
               <li className="nav-item highlight pl-1">
-                <button
+                <Link
                   className="nav-link" style={{textDecoration: "underline"}}
                   to="/login"
                 >
                   Login
-                </button>
+                </Link>
               </li>
             </ul>
             
@@ -79,20 +79,20 @@ export default function Navbar(){
             
               <ul id="user" className="navbar-nav ml-auto d-flex align-items-center">
               <li className="nav-item highlight pl-1">
-                <button className="btn btn-warning" 
+                <Link className="btn btn-warning" 
                   to="/create-news" 
                 >
                   Create News
-                </button>
+                </Link>
               </li>
             
               <li className="nav-item highlight pl-1">
-                <button
+                <Link
                   className="nav-link" style={{textDecoration: "underline"}}
                   to="/logout"
                 >
                   Logout
-                </button>
+                </Link>
               </li>
             </ul>
             

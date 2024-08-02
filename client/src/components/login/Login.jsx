@@ -1,48 +1,42 @@
 export default function Login(){
     return (
-        <div className="border p-5 bg-lightgrey">
-        <div className="row justify-content-between">
-          <div className="col-md-5 mb-2 mb-md-0">
+        <div className="d-flex p-2 center">
+        <div className="p-5 border bg-lightgrey">
+        <div>
             <h5 className="font-weight-bold secondfont">Login</h5>
-            Sign in to your account to start writing articles!
-          </div>
-        
-        <form>
-            <div className="form-group">
-                <input
-                    type="email"
-                    className="form-control"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
-                    placeholder="Enter email"
-                    required=""
-                />
-            <small id="emailHelp" className="form-text text-muted">
-            We'll never share your email with anyone else.
-            </small>
-            </div>
-            <div className="form-group">
-                <input
-                    type="password"
-                    className="form-control"
-                    id="exampleInputPassword1"
-                    placeholder="Password"
-                    required=""
-                />
-            </div>
-            <div className="form-group form-check">
-                    <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                    <label className="form-check-label" htmlFor="exampleCheck1">
-                        Check me out
-                    </label>
-            </div>
-            <button type="submit" className="btn btn-success btn-round">
-                        Login
-            </button>
-        </form>
-
+            <h6 className="mt-3">Sign in to your account to write an article!</h6>
         </div>
-    </div>
+
+        <form className="mt-3"> 
+       
+        <div className="form-group">
+          <input
+            type="email"
+            className="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+            required=""
+          />
+        </div>
+       
+        <div className="form-group">
+          <input
+            type="password"
+            className="form-control"
+            id="exampleInputPassword1"
+            placeholder="Password"
+            required=""
+          />
+        </div>
+       
+        <button type="submit" className="btn btn-success btn-round">
+          Sign in 
+        </button>
+      
+      </form>
+      </div>
+      </div>
     );
 }
 
