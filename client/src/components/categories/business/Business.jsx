@@ -1,4 +1,5 @@
 import ReadNext from "/src/components/read-next/ReadNext";
+import CommentSection from "/src/components/comment-section/CommentSection";
 
 export default function Business(){
     return (
@@ -80,6 +81,7 @@ export default function Business(){
         </div>
       </div>
       <ReadNext />
+      <CommentSection />
       </div>
     );
 }
