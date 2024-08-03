@@ -27,9 +27,9 @@ export default function Navbar(){
               </li>
               
               <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle" to="/categories" id="navbarDropdown" role="button" aria-expanded="false">
+                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-expanded="false">
                     Categories
-                </Link>
+                </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><Link className="dropdown-item" to="/politics">Politics</Link></li>
                     <li><Link className="dropdown-item" to="/business">Business</Link></li>
