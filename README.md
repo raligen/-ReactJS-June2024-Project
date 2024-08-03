@@ -14,3 +14,9 @@ REACTJS june 2024 news website project
 * Setup react-router-dom
 * Add routes in App.jsx
 * Add links in the navbar
+## 4. Create service layer
+* Service layer architecture
+* Abstract requester / React Query
+* Add news api
+## 5. News pieces implementation
+* Article list

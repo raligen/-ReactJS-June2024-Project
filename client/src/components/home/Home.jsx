@@ -1,6 +1,16 @@
+import { useEffect } from "react";
+import * as request from "../../api/requester";
+import newsAPI from "../../api/news-api";
 import HomeHeader from "../home-header/HomeHeader";
 
 export default function Home(){
+    // useEffect(() => {
+    //   (async () =>{
+    //       const newsArticles = await request.get(source url)
+    //       console.log(newsArticles)
+    //   })();
+    // })
+
     return (
         <>
         <HomeHeader />
