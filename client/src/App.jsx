@@ -22,7 +22,6 @@ function App() {
       <main id="main-content">
         <Routes>
           <Route path='/' element={<Home />}/>
-          <Route path='/categories' element={<Categories />}/>
           <Route path='/politics' element={<Politics />}/>
           <Route path='/business' element={<Business />}/>
           <Route path='/technology' element={<Technology />}/>

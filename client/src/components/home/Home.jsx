@@ -1,19 +1,20 @@
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import * as request from "../../api/requester";
-import newsAPI from "../../api/news-api";
+import * as newsAPI from "../../api/news-api";
 import HomeHeader from "../home-header/HomeHeader";
 
 export default function Home(){
+    const [news, setNews] = useState([]);
+
     // useEffect(() => {
-    //   (async () =>{
-    //       const newsArticles = await request.get(source url)
-    //       console.log(newsArticles)
-    //   })();
-    // })
+    //   gamesAPI.getAll()
+    //       .then(result => setNews(result));
+    //   };
+    // }, []);
 
     return (
-        <>
-        <HomeHeader />
+      <div>           
+         <HomeHeader />
         <div className="container pt-4 pb-4">
           <div className="row">
             <div className="col-lg-6">
@@ -96,12 +97,15 @@ export default function Home(){
             </div>
           </div>
         </div>
+
         <div className="container">
+
           <div className="row justify-content-between">
             <div className="col-md-8">
               <h5 className="font-weight-bold spanborder">
                 <span>All Stories</span>
               </h5>
+
               <div className="mb-3 d-flex justify-content-between">
                 <div className="pr-3">
                   <h2 className="mb-1 h4 font-weight-bold">
@@ -121,6 +125,7 @@ export default function Home(){
                 </div>
                 <img height={120} src="./assets/img/demo/blog8.jpg" />
               </div>
+
               <div className="mb-3 d-flex justify-content-between">
                 <div className="pr-3">
                   <h2 className="mb-1 h4 font-weight-bold">
@@ -139,6 +144,7 @@ export default function Home(){
                 </div>
                 <img height={120} src="./assets/img/demo/1.jpg" />
               </div>
+
               <div className="mb-3 d-flex justify-content-between">
                 <div className="pr-3">
                   <h2 className="mb-1 h4 font-weight-bold">
@@ -158,10 +164,12 @@ export default function Home(){
                 <img height={120} src="./assets/img/demo/5.jpg" />
               </div>
             </div>
+
             <div className="col-md-4 pl-4">
               <h5 className="font-weight-bold spanborder">
                 <span>Popular</span>
               </h5>
+
               <ol className="list-featured">
                 <li>
                   <span>
@@ -173,6 +181,7 @@ export default function Home(){
                     <p className="text-muted">Jake Bittle in SCIENCE</p>
                   </span>
                 </li>
+                
                 <li>
                   <span>
                     <h6 className="font-weight-bold">
@@ -183,6 +192,7 @@ export default function Home(){
                     <p className="text-muted">Jake Bittle in SCIENCE</p>
                   </span>
                 </li>
+
                 <li>
                   <span>
                     <h6 className="font-weight-bold">
@@ -193,6 +203,7 @@ export default function Home(){
                     <p className="text-muted">Jake Bittle in SCIENCE</p>
                   </span>
                 </li>
+
                 <li>
                   <span>
                     <h6 className="font-weight-bold">
@@ -204,9 +215,10 @@ export default function Home(){
                   </span>
                 </li>
               </ol>
+
             </div>
           </div>
         </div>
-      </>      
-    );
+       </div>     
+  );
 }

@@ -79,13 +79,14 @@ export default function Navbar(){
             
               <ul id="user" className="navbar-nav ml-auto d-flex align-items-center">
               <li className="nav-item highlight pl-1">
-                <Link className="btn btn-warning" 
+                <Link className="btn" style={{backgroundColor: "#ff8533", color: "#fff", border: "1px solid #ff8533"}}
                   to="/create-news" 
                 >
                   Create News
                 </Link>
               </li>
-            
+              
+
               <li className="nav-item highlight pl-1">
                 <Link
                   className="nav-link" style={{textDecoration: "underline"}}

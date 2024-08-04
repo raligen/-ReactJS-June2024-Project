@@ -3554,7 +3554,6 @@ input[type="button"].btn-block {
     color: #6c757d; }
 
 
-
 .nav-tabs {
   border-bottom: 1px solid #dee2e6; }
   .nav-tabs .nav-item {
@@ -8964,6 +8963,30 @@ a.text-dark:hover {
     background: #03a87c;
     color: #fff !important; }
 
+.c-button {
+    background-color: #03a87c;
+    color: #fff;
+    border: 1px solid #03a87c;
+    padding: 0.3rem 1rem;
+    border-radius: 3px;
+    font-size: .93rem;
+}
+
+.article-text {
+  white-space: pre-line;
+}
+
+/* .my-link {
+  display: block;
+  padding: 0.8rem 1rem; }
+  .my-link:hover, .my-link:focus {
+    text-decoration: none; }
+  .my-link.disabled {
+    color: #6c757d; } */
+/* 
+    .nav-pills .show > .nav-link {
+      color: #fff;
+      background-color: #03a87c; } */
 
 
 .navbar-brand {

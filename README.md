@@ -20,3 +20,32 @@ REACTJS june 2024 news website project
 * Add news api
 ## 5. News pieces implementation
 * Article list
+* Details - link, route, api fn
+* Home - Latest News
+## 6. Comments
+* Create service
+* Post comment to server
+* Read Comments from server
+* Display comments in comment section
+* Clear form
+## 7. API Hooks
+* GameAPI hooks
+* Comment Hooks
+* Form Hook
+## 8. Authentication
+* Auth API
+* Auth API Hook
+* Auth state & context
+* Login
+* Register
+* Logout
+## 9. UI Implementation
+* Dynamic navigation
+* Create game
+ - Api function
+ - Hook
+* Latest News
+
+
+
+

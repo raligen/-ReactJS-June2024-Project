@@ -1,9 +1,17 @@
 export default function HomeHeader(){
     return (
-        <div className="container">
-        <div className="jumbotron jumbotron-fluid mb-3 pt-0 pb-0 bg-lightblue position-relative">
-          <div className="pl-4 pr-0 h-100 tofront">
-            <div className="row justify-content-between">
+
+        <div className="container pt-4 pb-4 align-self-center">          
+              <h5 className="m-0 pt-0 font-weight-bold spanborder">
+                <span>Latest News</span>
+              </h5>
+        
+
+            <div>
+            <div className="jumbotron jumbotron-fluid mb-3 pt-0 pb-0 bg-lightblue position-relative">
+              <div className="pl-4 pr-0 h-100 tofront">
+                <div className="row justify-content-between">            
+            
               <div className="col-md-6 pt-6 pb-6 align-self-center">
                 <h1 className="secondfont mb-3 font-weight-bold">
                   Mundana is an HTML Bootstrap Template for Professional Blogging
@@ -30,5 +38,6 @@ export default function HomeHeader(){
           </div>
         </div>
       </div>    
+      </div>
     );
 }
