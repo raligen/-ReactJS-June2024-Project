@@ -21,8 +21,9 @@ function App() {
   const [authState, setAuthState] = useState({});
 
   const changeAuthState = (state) => {
-    // TODO validate
-    setAuthState(state);
+    // TODO quick solution, fix afterwards by implementing persisted authState
+      localStorage.setItem('accessToken', state.accessToken);
+      setAuthState(state);
   };
   
   const contextData = {

@@ -50,6 +50,14 @@ export default function ArticleForm(){
             </div>
 
             <div className="col">
+                <input type="text" className="form-control" name="imageUrl" placeholder="Provide a link to an image..."/>
+            </div>
+        
+        </div>
+
+        <div className="row form-group">
+
+            <div className="col">
                 <label>
                     Select a category:
                     <select className="custom-select form-control" id="inputGroupSelect01" name="category" value={values.`${{category}}`} onChange={changeHandler(selectHandler)}>
@@ -58,7 +66,7 @@ export default function ArticleForm(){
                         <option value="technology">Technology</option>
                     </select>
                 </label>
-            </div>        
+            </div>      
 
         </div>
 
