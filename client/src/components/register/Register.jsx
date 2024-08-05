@@ -1,4 +1,34 @@
+import { useNavigate } from "react-router-dom";
+
+import { useForm } from "../../hooks/useForm";
+import { useRegister } from "../../hooks/useAuth";
+
+const initialValues = {email: '', password: '', rePassword:'' }; 
+
 export default function Register(){
+  const [error, setError] = useState('');
+  const register = useRegister();
+  const navigate = useNavigate();
+  
+  const registerHandler = async ({email, password, confirmpass}) => {
+        if (password !== confirmpass) {
+            return setError('Passwords do not match.');
+        }
+        try {
+            await register(email, password)
+            navigate('/');
+        } catch (err) {
+            setError(err.message);
+        }
+      };
+
+      const {
+        values, 
+        changeHandler, 
+        submitHandler
+      } = useForm(initialValues, registerHandler);  
+
+
     return (
         <div className="d-flex p-2 center">
         <div className="p-5 border bg-lightgrey">
@@ -7,16 +37,19 @@ export default function Register(){
             <h6 className="mt-3">Create an account to start writing articles!</h6>
         </div>
 
-        <form className="mt-3"> 
+        <form onSubmit={submitHandler} className="mt-3"> 
        
         <div className="form-group">
           <input
             type="email"
             className="form-control"
-            id="exampleInputEmail1"
+            id="email"
             aria-describedby="emailHelp"
             placeholder="Enter email"
             required=""
+            name="email"
+            value={values.email}
+            onChange={changeHandler}
           />
         </div>
        
@@ -24,15 +57,37 @@ export default function Register(){
           <input
             type="password"
             className="form-control"
-            id="exampleInputPassword1"
+            id="password"
             placeholder="Password"
             required=""
+            name="password"
+            value={values.password}
+            onChange={changeHandler}
+          />
+        </div>
+
+        <div className="form-group">
+          <input
+            type="password"
+            className="form-control"
+            id="password"
+            placeholder="Confirm Password"
+            required=""
+            name="confirmpass"
+            value={values.confirmpass}
+            onChange={changeHandler}
           />
         </div>
        
         <button type="submit" className="btn btn-success btn-round">
           Sign up
         </button>
+
+        {error && ( 
+              <p>
+                <span>{error}</span>
+              </p>
+        )}
       
       </form>
       </div>

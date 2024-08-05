@@ -17,13 +17,16 @@ import ArticleDetails from "./components/article-details/ArticleDetails";
 
 
 function App() {
+  // TODO remove from component
   const [authState, setAuthState] = useState({});
 
   const changeAuthState = (state) => {
+    // TODO validate
     setAuthState(state);
   };
   
   const contextData = {
+    userId: authState._id,
     email: authState.email,
     accessToken: authState.accessToken,
     isAuthenticated: !!authState.email,

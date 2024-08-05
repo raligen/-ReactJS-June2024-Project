@@ -16,7 +16,13 @@ export default async function requester(method, url, data){
     
 
     const response = await fetch(url, options);
-    const results = response.json();
+    const results = await response.json();
+
+    if (!response.ok) {
+        console.log(response);
+        throw result;
+    }
+    
 
     return result;
 };
