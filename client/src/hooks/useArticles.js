@@ -35,3 +35,8 @@ export function useGetOneArticles(articleId) {
         setArticle,
     ];
 }
+
+export function useCreateArticle(){
+    const articleCreateHandler = (articleData) => articlesAPI.create(articleData);
+    return articleCreateHandler;
+}
