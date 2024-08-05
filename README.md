@@ -36,6 +36,7 @@ REACTJS june 2024 news website project
 * Auth API
 * Auth API Hook
 * Auth state & context
+* Token management
 * Login
 * Register
 * Logout

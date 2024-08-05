@@ -1,5 +1,6 @@
+import { useState } from 'react';
 import { Route, Routes} from 'react-router-dom';
-import { useState } from 'react'
+
 
 import Navbar from "./components/navbar/Navbar";
 import Home from './components/home/Home';
@@ -11,12 +12,27 @@ import Technology from './components/categories/technology/Technology'
 import ArticleForm from './components/article-form/ArticleForm';
 import Register from './components/register/Register';
 import Login from './components/login/Login';
-
+import ArticleCreate from "./components/article-create/ArticleCreate";
+import ArticleDetails from "./components/article-details/ArticleDetails";
 
 
 function App() {
+  const [authState, setAuthState] = useState({});
+
+  const changeAuthState = (state) => {
+    setAuthState(state);
+  };
+  
+  const contextData = {
+    email: authState.email,
+    accessToken: authState.accessToken,
+    isAuthenticated: !!authState.email,
+    changeAuthState,
+  };
+
   return (
-    <>
+    <AuthContext.Provider value={contextData}>
+    <div>
       <Navbar />
 
       <main id="main-content">
@@ -32,7 +48,8 @@ function App() {
       </main> 
 
       <Footer />
-    </>
+    </div>
+    </AuthContext.Provider>
   )
 }
 

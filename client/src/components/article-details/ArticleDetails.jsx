@@ -4,9 +4,10 @@ import commentsApi from "../../api/comments-api";
 
 export default function ArticleDetails(){
     const {articleId} = useParams()    
+    const [article, setArticle] = useGetOneArticles(articleId);
     const [username, setUsername] = useState('');
     const [comment, setComment] = useState('');
-    const [article, setArticle] = useGetOneArticles(articleId);
+    
     
        
     const commentSubmitHandler = async (e) => {

@@ -1,5 +1,30 @@
+import { useNavigate } from "react-router-dom";
+
+import { useForm } from "../../hooks/useForm";
+import { useLogin } from "../../hooks/useAuth";
+
+const initialValues = {email: '', password: ''}; 
+
 export default function Login(){
-    return (
+    const login = useLogin();
+    const navigate = useNavigate();
+    
+    const loginHandler = async ({email, password}) => {
+          try {
+            await login(email, password)
+            navigate('/');
+          } catch (err) {
+           console.log(err.message);
+          }
+        };
+
+        const {
+          values, 
+          changeHandler, 
+          submitHandler
+        } = useForm(initialValues, loginHandler);
+
+        return (
         <div className="d-flex p-2 center">
         <div className="p-5 border bg-lightgrey">
         <div>
@@ -7,16 +32,19 @@ export default function Login(){
             <h6 className="mt-3">Sign in to your account to write an article!</h6>
         </div>
 
-        <form className="mt-3"> 
+        <form onSubmit={submitHandler} className="mt-3"> 
        
         <div className="form-group">
           <input
             type="email"
             className="form-control"
-            id="exampleInputEmail1"
+            id="email"
+            name="email"
             aria-describedby="emailHelp"
             placeholder="Enter email"
             required=""
+            value={values.email}
+            onChange={changeHandler}
           />
         </div>
        
@@ -24,9 +52,12 @@ export default function Login(){
           <input
             type="password"
             className="form-control"
-            id="exampleInputPassword1"
+            id="password"
+            name="password"
             placeholder="Password"
             required=""
+            value={values.password}
+            onChange={changeHandler}
           />
         </div>
        
