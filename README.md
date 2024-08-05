@@ -39,6 +39,7 @@ REACTJS june 2024 news website project
 * Token management
 * Login
 * Register
+ - Add register validation
 * Logout
 ## 9. UI Implementation
 * Dynamic navigation
