@@ -38,7 +38,7 @@ export default function CommentSection(){
               src="https://via.placeholder.com/40x40"
               className="rounded-circle me-2"
             />
-            <a className="fw-semibold text-decoration-none">{comment.email.username}</a>
+            <a className="fw-semibold text-decoration-none">{comment.author.email}</a>
             {/* <span class="ms-3 small text-muted">2 months ago</span> */}
           </header>
           <div className="card-body py-1">
