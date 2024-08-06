@@ -1,12 +1,9 @@
-import { useContext } from "react";
-
-
 import { Link } from "react-router-dom";
-
-import { AuthContext } from "'../../contexts/AuthContext'";
+import { useAuthContext } from "../../contexts/AuthContext'";
 
 export default function Navbar(){
-    const {isAuthenticated, email} = useContext(AuthContext);
+    const {isAuthenticated, email} = useAuthContext();
+
     return (
         <nav className="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div className="container">
@@ -115,3 +112,4 @@ export default function Navbar(){
       </nav>
     );
 }
+
