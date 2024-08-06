@@ -18,8 +18,13 @@ export default function CommentSection(){
       changeHandler,
       submitHandler,
       values,
-    } = useForm(initialValues, ({ comment }) => {
-        createComment(articleId, comment);
+    } = useForm(initialValues, async ({ comment }) => {
+        try {
+          await createComment(articleId, comment);
+        } catch (error) {
+          console.log(err.message);
+        }
+       
     });
 
 
