@@ -12,49 +12,36 @@ import Technology from './components/categories/technology/Technology'
 import ArticleForm from './components/article-form/ArticleForm';
 import Register from './components/register/Register';
 import Login from './components/login/Login';
+import Logout from './components/logout/Logout';
 import ArticleCreate from "./components/article-create/ArticleCreate";
 import ArticleDetails from "./components/article-details/ArticleDetails";
 
+import { AuthContextProvider } from "./contexts/AuthContext";
+
 
 function App() {
-  // TODO remove from component
-  const [authState, setAuthState] = useState({});
-
-  const changeAuthState = (state) => {
-    // TODO quick solution, fix afterwards by implementing persisted authState
-      localStorage.setItem('accessToken', state.accessToken);
-      setAuthState(state);
-  };
-  
-  const contextData = {
-    userId: authState._id,
-    email: authState.email,
-    accessToken: authState.accessToken,
-    isAuthenticated: !!authState.email,
-    changeAuthState,
-  };
-
   return (
-    <AuthContext.Provider value={contextData}>
-    <div>
-      <Navbar />
+    <AuthContextProvider>
+      <div>
+         <Navbar />
 
-      <main id="main-content">
-        <Routes>
-          <Route path='/' element={<Home />}/>
-          <Route path='/politics' element={<Politics />}/>
-          <Route path='/business' element={<Business />}/>
-          <Route path='/technology' element={<Technology />}/>
-          <Route path='/create-news' element={<ArticleForm />}/>
-          <Route path='/register' element={<Register />}/>
-          <Route path='/login' element={<Login />}/> 
-        </Routes>
-      </main> 
+         <main id="main-content">
+            <Routes>
+                <Route path='/' element={<Home />}/>
+                <Route path='/politics' element={<Politics />}/>
+                <Route path='/business' element={<Business />}/>
+                <Route path='/technology' element={<Technology />}/>
+                <Route path='/create-news' element={<ArticleForm />}/>
+                <Route path='/register' element={<Register />}/>
+                <Route path='/login' element={<Login />}/> 
+                <Route path='/logout' element={<Logout />}/> 
+            </Routes>
+          </main> 
 
-      <Footer />
-    </div>
-    </AuthContext.Provider>
+         <Footer />
+     </div>
+    </AuthContextProvider>
   )
-}
+};
 
 export default App

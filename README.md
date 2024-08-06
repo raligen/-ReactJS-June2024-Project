@@ -47,6 +47,8 @@ REACTJS june 2024 news website project
  - Api function
  - Hook
 * Latest News
+## Refactoring 
+- extract authState from app component
 
 
 
