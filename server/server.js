@@ -1578,6 +1578,7 @@
             duplicate: true
           }
     };
+    
     var rules$1 = {
     	users: {
     		".create": false,
