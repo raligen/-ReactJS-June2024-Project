@@ -20,7 +20,8 @@ export default function CommentSection(){
       values,
     } = useForm(initialValues, async ({ comment }) => {
         try {
-          await createComment(articleId, comment);
+          const newComment = await createComment(articleId, comment);
+          setComments(oldComments => [...oldComments, newComment]);
         } catch (error) {
           console.log(err.message);
         }
@@ -37,7 +38,7 @@ export default function CommentSection(){
               src="https://via.placeholder.com/40x40"
               className="rounded-circle me-2"
             />
-            <a className="fw-semibold text-decoration-none">username</a>
+            <a className="fw-semibold text-decoration-none">{comment.email.username}</a>
             {/* <span class="ms-3 small text-muted">2 months ago</span> */}
           </header>
           <div className="card-body py-1">
