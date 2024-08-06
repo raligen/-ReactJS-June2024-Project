@@ -1,6 +1,12 @@
+import { useContext } from "react";
+
+
 import { Link } from "react-router-dom";
 
+import { AuthContext } from "'../../contexts/AuthContext'";
+
 export default function Navbar(){
+    const {isAuthenticated, email} = useContext(AuthContext);
     return (
         <nav className="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div className="container">
@@ -55,47 +61,53 @@ export default function Navbar(){
               </li>
             </ul>
 
-           
-              <ul id="guest" className="navbar-nav ml-auto d-flex align-items-center">
-              <li className="nav-item highlight pl-1">
-                <Link
-                  className="nav-link"
-                  to="/register"
-                >
-                  Register
-                </Link>
-              </li>
-              <li className="nav-item highlight pl-1">
-                <Link
-                  className="nav-link" style={{textDecoration: "underline"}}
-                  to="/login"
-                >
-                  Login
-                </Link>
-              </li>
-            </ul>
-            
-
-            
-              <ul id="user" className="navbar-nav ml-auto d-flex align-items-center">
-              <li className="nav-item highlight pl-1">
-                <Link className="btn" style={{backgroundColor: "#ff8533", color: "#fff", border: "1px solid #ff8533"}}
-                  to="/create-news" 
-                >
-                  Create News
-                </Link>
-              </li>
+              {isAuthenticated
+                  ? (
+                      <ul id="user" className="navbar-nav ml-auto d-flex align-items-center">
+                        <li className="nav-item highlight pl-1">
+                          <Link className="btn" style={{backgroundColor: "#ff8533", color: "#fff", border: "1px solid #ff8533"}}
+                            to="/create-news" 
+                          >
+                            Create News
+                          </Link>
+                        </li>
+                        
+                        <li className="nav-item highlight pl-1">
+                          <p>{email}</p>
+                        </li>
+                            
+                        <li className="nav-item highlight pl-1">
+                          <Link
+                            className="nav-link" style={{textDecoration: "underline"}}
+                            to="/logout"
+                          >
+                            Logout
+                          </Link>
+                        </li>
+                      </ul>
+                  )
+                  : (
+                      <ul id="guest" className="navbar-nav ml-auto d-flex align-items-center">
+                        <li className="nav-item highlight pl-1">
+                          <Link
+                            className="nav-link"
+                            to="/register"
+                          >
+                            Register
+                          </Link>
+                        </li>
+                        <li className="nav-item highlight pl-1">
+                          <Link
+                            className="nav-link" style={{textDecoration: "underline"}}
+                            to="/login"
+                          >
+                            Login
+                          </Link>
+                        </li>
+                      </ul>
+                  )               
+              }
               
-
-              <li className="nav-item highlight pl-1">
-                <Link
-                  className="nav-link" style={{textDecoration: "underline"}}
-                  to="/logout"
-                >
-                  Logout
-                </Link>
-              </li>
-            </ul>
             
 
           </div>

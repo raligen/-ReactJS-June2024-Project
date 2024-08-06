@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Route, Routes} from 'react-router-dom';
 
+import { AuthContextProvider } from "./contexts/AuthContext";
 
 import Navbar from "./components/navbar/Navbar";
 import Home from './components/home/Home';
@@ -16,7 +17,6 @@ import Logout from './components/logout/Logout';
 import ArticleCreate from "./components/article-create/ArticleCreate";
 import ArticleDetails from "./components/article-details/ArticleDetails";
 
-import { AuthContextProvider } from "./contexts/AuthContext";
 
 
 function App() {
