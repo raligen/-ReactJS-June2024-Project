@@ -1,22 +1,44 @@
-import * as request from './requester';
+import * as requester from "./requester";
 
 const BASE_URL = 'http://localhost:3030/data/articles';
 
 export const getAll = async () => {
-    await result = request.get(BASE_URL);
+    const result = await requester.get(BASE_URL);
 
     const articles = Object.values(result);
 
     return articles;
 }
 
-export const getOne = (articleId) => request.get(`${BASE_URL}/${articleId}`);
+export const getLatest = async () => {
+    const urlSearchParams = new URLSearchParams({
+        sortBy: `_createdOn desc`,
+        pageSize: 5,
+    });
 
-export const create = (articleData) => request.post(`${BASE_URL}`, articleData)
+    const result = await requester.get(`${BASE_URL}?${urlSearchParams.toString()}`);
+
+    const latestNews = Object.values(result);
+
+    return latestNews;
+};
+
+export const getOne = (articleId) => requester.get(`${BASE_URL}/${articleId}`);
+
+export const create = (articleData) => requester.post(`${BASE_URL}`, articleData)
+
+export const remove = (articleData) => requester.del(`${BASE_URL}/${articleId}`)
+
+export const update = (articleId, articleData) => requester.put(`${BASE_URL}/${articleId}`, articleData);
+
 
 const articlesAPI = {
     getAll,
+    getLatest,
     getOne,
+    create,
+    remove,
+    update,
 };
 
 export default articlesAPI;

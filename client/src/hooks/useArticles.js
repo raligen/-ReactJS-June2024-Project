@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import articlesAPI from '../api/articles-api';
 
 export function useGetAllArticles() {
@@ -37,7 +38,10 @@ export function useGetOneArticles(articleId) {
 }
 
 export function useCreateArticle() {
-    get token
     const articleCreateHandler = (articleData) => articlesAPI.create(articleData);
     return articleCreateHandler;
-}
+};
+
+export function useDeleteArticle() {
+
+};

@@ -1,6 +1,5 @@
 import commentsAPI from '../api/comments-api';
 
-
 export function useCreateComment() {
     const createCommentHandler = (articleId, comment) => commentsAPI.create(articleId, comment);
     return createCommentHandler;

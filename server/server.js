@@ -1339,254 +1339,38 @@
     	}
     };
     var seedData = {
-    	articles: {
-            article_id: "e114870d8bd92f11bd3d8a88fe8cfbf6",
-            title: "Baerbock calls US missiles in Germany a 'credible deterrent'",
-            link: "https://www.dw.com/en/baerbock-calls-us-missiles-in-germany-a-credible-deterrent/a-69851255?maca=en-rss-en-top-1022-rdf",
-            keywords: null,
-            creator: "DW",
-            video_url: null,
-            description: "Germany's foreign minister emphasized the need to deploy long-range US weapons systems on German soil. Weapons like the SM-6, Tomahawk and developmental hypersonic weapons would deter Russia, she said.",
-            content: "German Foreign Minister Annalena Baerbock defended an agreement with Washington on the stationing of long-range US missiles in Germany, citing the threat Russia poses to European security. \r\n\r\n\"Making foreign policy today means recognizing that the principle of hope will not protect us from [Russian President Vladimir] Putin's Russia,\" Baerbock wrote in an opinion piece for the German weekly Bild am Sonntag newspaper. \r\n\r\n\"What protects us now is that we invest in our own security and strength — in the EU, in NATO and in Germany. And this includes the decision to deploy long-range American weapons systems,\" she added. The minister emphasized that Germany needs \"a credible deterrent\" against Russia, \"which also protects the Poles, the Baltic peoples and the Finns — our partners who share a direct border with Russia and have experienced how it is using hybrid measures at the border in recent months.\"\r\n\r\nBaerbock accused Putin of responding to every peace initiative with escalation, writing that he wants only for \"Ukraine to submit to him.\"\r\n\r\nWhat weapon systems will US move to Germany?\r\nOn the sidelines of a NATO summit in July, the United States and Germany agreed to the deployment of long-range fire capabilities on German soil starting in 2026. The move will see a return of long-range US cruise missiles to Germany for the first time since the late 1990s, likely including SM-6, Tomahawk and developmental hypersonic weapons with a longer range than those currently in the armories of European militaries.\r\n\r\nThe decision received a mixed reaction in Berlin, with some greeting and others criticizing it.\r\n\r\nSeveral parties, including German Chancellor Olaf Scholz's own center-left Social Democrats, have criticized the plan and called for it to be referred to parliament for debate.\r\n\r\nsri/sms (AFP, Reuters, dpa),
-            pubDate: "2024-08-04 05:51:00",
-            image_url: "https://static.dw.com/image/69557766_6.jpg",
-            source_id: "dw",
-            source_priority: 2734,
-            source_name: "Dw Akademie",
-            source_url: "https://www.dw.com",
-            source_icon: "https://i.bytvi.com/domain_icons/dw.png",
-            language: "english",
-            country: [
-              "germany"
-            ],
-            category: [
-              "top"
-            ],
-            ai_tag: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment_stats: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            ai_region: "ONLY AVAILABLE IN CORPORATE PLANS",
-            ai_org: "ONLY AVAILABLE IN CORPORATE PLANS",
-            duplicate: false
-          },
-          {
-            article_id: "428f58285a9b6c5ff12d7a2c1ee7fd7e",
-            title: "War in Gaza: An alternative voice for peace from Israel",
-            link: "https://www.dw.com/en/war-in-gaza-an-alternative-voice-for-peace-from-israel/a-69833772?maca=en-rss-en-top-1022-rdf",
-            keywords: null,
-            creator: "DW",
-            video_url: null,
-            description: "Neither \"pro-Israel\" nor \"pro-Palestine\": Two young activists who identify as Palestinian-Israeli have started a podcast to seek alternatives to violence and polarization. They want their identity to be recognized.,
-            content: "Maoz Inon's parents were among the first victims of the Hamas attacks in Israel on the morning of October 7. Yet two days after the tragedy, despite his pain, it was very clear to him that he didn't want revenge.\r\n\r\n\"Revenge won't bring my parents back. Nor will it bring back any of the other Israelis and Palestinians who have been killed,\" he wrote.\r\n\r\nThat night, Inon, an Israeli entrepreneur and peace activist, had a dream. He describes it in an interview for the podcast \"Unapologetic: The Third Narrative.\" The ground before him was thick with blood, and he was weeping — along with the whole of humanity, all wounded by the war.\r\n\r\n\"We were crying, we were all crying. And our tears went down our face and to our bodies, and washed our bodies, and healed us… And then our tears went down to the ground and washed the blood.\"\r\n\r\nIt wasn't a nightmare, said Inon. It was a vision of a better future without bloodshed.\r\n\r\nHamze Awawde has also dreamt about the conflict. On the same podcast, the Palestinian author and peace activist spoke of dreaming that Israeli soldiers have come to kill him and his family, just as they killed his cousin. Awawde said he became a peace activist because he believes hope is not a feeling but something that you do. \"Waiting for two states feels like waiting for the Messiah,\" he wrote in one of his recent essays.\r\n\r\nFighting for a political identity\r\nWhat Awade and Inon have in common is their hope for an end to the current war in Gaza, which has claimed the lives of nearly 40,000 civilians according to recent death tolls. That is why they were invited onto the podcast. The format was established in October 2023, after the Hamas-led attack in Israel. Germany, the US, the EU and others designate Hamas as a terrorist group.\r\n\r\nThe two founders, Amira Mohammed and Ibrahim Abu Ahmad, are among the many Arabs in Israel who have Israeli citizenship. According to Israel's Central Bureau of Statistics, this group constitutes around 17% of the population. In total, at least 21% of people living on Israeli territory are Arab.\r\n\r\nMohammed and Abu Ahmad define themselves as Palestinian Israelis, and surveys show that the majority of their community does the same. On a political level, though, it's an identity they have to fight for, as the state of Israel has rejected the possibility of Palestinian identity for its citizens. Instead, it refers to them as \"Arab Israelis.\" In an interview with DW, Mohammed explained that she is convinced Palestinian Israelis like her could, and should, play a key role in the Middle East conflict precisely because of their identity.\r\n\"Whether it's about if you want to call what's going on a war or genocide, or what exactly happened on October 7, or on the number of the people dying in Gaza — we're not going to agree. But we have to agree on the future,\" she said.\r\nOpposing black-and-white thinking\r\nMohammed and Abu Ahmad envision a future beyond the current polarization. \"What we want to create here, with this initiative, is a third narrative in the West,\" explained Abu Ahmad. This is why they are primarily addressing a Western audience.\r\n\r\n\"What the West created is a sense of a black-and-white. You're either pro-Israeli, or you're pro-Palestinian,\" Abu Ahmad comments in the first episode.\r\n\r\n\"Instead of using it like a football match, cheering for Messi or Ronaldo, you guys [in the West] should use your platform to criticize all parties equally,\" added Mohammed.\r\n\r\nTheir approach has proved to be successful. The podcast has as many as 180,000 listeners per episode and around 30,000 followers on Instagram.\r\n\r\n'Too Israeli' or 'bad Arab'\r\nHowever, despite their success, the two activists still deal with daily setbacks. There is resistance from all sides, said Mohammed. When she speaks Arabic in public, Israelis look at her with alarm. And when she speaks Hebrew without an Arab accent, Palestinians don't trust her. \"Everyone starts to delegitimize you, in a way. If I am 'too Israeli,' I am siding with the oppressor. If I am 'too proud of being a Palestinian,' I am justifying terror, I'm a 'bad Arab,'\" she said.\r\n\r\nMohammed is convinced that the dual identity she shares with many others is a source of untapped potential in this conflict.\r\n\r\n\"We know both cultures. We can feel the Palestinian pain. But we can also feel the pain of the Israelis,\" she said. \"But as long as we are not recognized as Palestinian Israelis, we cannot be the kind of translator, the medium. We're a minority, but we want to be represented and seen as what we are.\"\r\n\r\nConflicting emotions\r\nMohammed was especially conscious of her dual identity on October 7. \"It was a disaster of emotions. I didn't know what I am supposed to feel,\" she said.\r\n\r\nAs she sought shelter from the bombs in a stairwell in southern Israel, not far from Gaza, she was glued to her phone, watching images of the events happening in real time. She saw Palestinians break through the border fence that, for the past 30 years, had confined them to Gaza's 365 square kilometers — an area not even half the size of Hamburg, with a population of more than 2 million.\r\n\r\n\"Seeing those Gazans flee out, seeing that liberation, I felt a little bit of relief. They deserve to be free,\" said Mohammed.\r\n\r\nBut the people who broke through the fence were not in search of freedom. They murdered at least 1,200 people, set fire to homes, and took hundreds of hostages back with them to Gaza. Still in the stairwell, Mohammed started seeing pictures of the corpses of young women and hostages being taken to Gaza. The building she was in was shaking as bombs fell around it. And she thought: \"This could also have been me. This was the moment in which I felt my Israeli side.\"\r\n\r\n'We all deserve better'\r\nMore than nine months after the Hamas attack on Israel, the war in Gaza continues. It has taken a terrible toll: According to the UN, more than 39,000 people have been killed in Israeli attacks on Gaza, and 120 hostages, both Israeli and of other nationalities, are still being held captive by Hamas. There is no immediate prospect of peace.\r\n\r\nNonetheless, the two podcasters continue their work. They want to show solidarity with both Palestinians and Israelis and be allowed to criticize both sides without having to justify themselves, said Mohammed.\r\n\r\n\"We want to stop the bloodshed. Palestinians, Israelis, Christians, Jews, Muslims — we all deserve better.\"\r\n\r\nThis article was originally written in German.\r\n,
-            pubDate: "2024-08-04 04:40:00",
-            image_url: "https://static.dw.com/image/69744635_6.jpg",
-            source_id: "dw",
-            source_priority: 2734,
-            source_name: "Dw Akademie",
-            source_url: "https://www.dw.com",
-            source_icon: "https://i.bytvi.com/domain_icons/dw.png",
-            language: "english",
-            country: [
-              "germany"
-            ],
-            category: [
-              "top"
-            ],
-            ai_tag: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment_stats: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            ai_region: "ONLY AVAILABLE IN CORPORATE PLANS",
-            ai_org: "ONLY AVAILABLE IN CORPORATE PLANS",
-            duplicate: false
-          },
-          {
-            article_id: "66faaebe9ea3750123367f2ba4dc51b7",
-            title: "Venezuela: Mass protests against President Maduro's contested reelection",
-            link: "https://www.dw.com/en/venezuela-mass-protests-against-president-maduro-s-contested-reelection/a-69851025?maca=en-rss-en-top-1022-rdf",
-            keywords: null,
-            creator: "DW",
-            video_url: null,
-            description: "Thousands of people took to the streets across Venezuela on Saturday to protest against the widely disputed reelection of President Nicolas Maduro.\r\n\r\nThey waved the national flag and sang the national anthem in support of an opposition candidate they believe won the presidential vote.\r\n\r\nAuthorities have declared Maduro the winner of last Sunday's election but have yet to produce voting tallies to prove he won.\r\n\r\nMaduro also urged his backers to attend his own \"mother of all marches\" later Saturday in the capital city, Caracas.\r\n\r\nOpposition leader Maria Corina Machado made a surprise appearance at the rally in Caracas after spending much of the week in hiding, saying that her life and freedom were at risk.\r\nWhat did Machado say?\r\n\"After six days of brutal repression, they thought they were going to silence us, intimidate or paralyze us,\" Machado told her ecstatic supporters from the raised platform on a truck.\r\n\r\n\"The presence of every one of you here today represents the best of Venezuela,\" she said.\r\n\r\n\"We have overcome all the barriers! We have knocked them all down,\" she added. \"Never has the regime been so weak.\"\r\n\r\nSince the disputed poll, Maduro's government has arrested hundreds of opposition supporters.\r\n\r\nThe president and his supporters have also threatened to lock up Machado and her hand-picked presidential candidate, Edmundo Gonzalez.\r\n\r\nGonzalez, who remains in hiding, was not seen at Saturday's event.\r\n\r\nAfter the rally, Machado was given a non-descript shirt and whisked away on the back of a motorcycle.\r\nMaduro lambasts opposition\r\nLater in the day, thousands of government supporters gathered before Maduro's office at the Miraflores national palace.\r\n\r\nAddressing them, Maduro vilified the opposition, claiming they \"represent the hatred, the division, of fascism.\"\r\n\r\nHe vowed to continue to use a heavy hand against his political opponents, saying 2,000 of them have been arrested already.\r\n\r\n\"This time there will be no pardon, this time there will be Tocoron,\" he said, referring to a notorious prison.\r\n\r\nHow did EU countries and others react?\r\nVenezuela's CNE election authority, loyal to Maduro, on Friday proclaimed him the winner with 52% of the vote to 43% for Gonzalez.\r\n\r\nThe opposition has rejected the result.\r\n\r\nThey have launched a website with copies of 84% of ballots cast, showing an easy win for Gonzalez.The government claims these are forged.\r\n\r\nMany countries, including the United States, Argentina, Costa Rica, Ecuador, Panama and Uruguay, have rejected the results released by the election authority.\r\n\r\nThe Organization of American States called for \"reconciliation and justice\" in Venezuela, saying, \"Let all Venezuelans who express themselves in the streets find only an echo of peace, a peace that reflects the spirit of democracy.\"\r\n\r\nSeven European Union countries also called on Venezuela to publish its voting records.\r\n\r\nThe statement — from France, Germany, Italy, the Netherlands, Poland, Portugal and Spain — expressed \"strong concern\" about the situation in the country following the contested presidential election.\r\n\r\n\"We call on the Venezuelan authorities to promptly publish all voting records,\" it read, adding that such a step was necessary to \"recognise the will of the Venezuelan people.\" \r\n\r\n\"The rights of all Venezuelans, especially political leaders, must be respected during this process,\" the statement noted. \"We strongly condemn any arrest or threat against them.\"\r\nWhat's Maduro's economic record?\r\nMaduro, 61, has led Venezuela since 2013.\r\n\r\nThe Latin American country has the world's largest proven crude oil reserves.\r\n\r\nIt was once one of the most advanced economies in the region.\r\n\r\nThe nation's GDP has plummeted by about 80% under Maduro. It also suffers hyperinflation and widespread shortages of goods.\r\n\r\nThe economic turmoil has forced over seven million of the country's 30 million citizens to emigrate over the past decade, marking the largest exodus in Latin America's history.\r\n\r\nsri/sms (AP, AFP, Reuters),
-            pubDate: "2024-08-04 01:39:00",
-            image_url: "https://static.dw.com/image/69850451_6.jpg",
-            source_id: "dw",
-            source_priority: 2734,
-            source_name: "Dw Akademie",
-            source_url: "https://www.dw.com",
-            source_icon: "https://i.bytvi.com/domain_icons/dw.png",
-            language: "english",
-            country: [
-              "germany"
-            ],
-            category: [
-              "top"
-            ],
-            ai_tag: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment_stats: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            ai_region: "ONLY AVAILABLE IN CORPORATE PLANS",
-            ai_org: "ONLY AVAILABLE IN CORPORATE PLANS",
-            duplicate: false
-          },
-          {
-            article_id: "365935e718f95b052e73d0fad9c85238",
-            title: "Berlin: Thousands march in COVID-19 pandemic skeptic protest",
-            link: "https://www.dw.com/en/berlin-thousands-march-in-covid-19-pandemic-skeptic-protest/a-69850493?maca=en-rss-en-top-1022-rdf",
-            keywords: null,
-            creator: "DW",
-            video_url: null,
-            description: "Several thousand people on Saturday joined a street demonstration and rally in Berlin organized by Germany's \"Lateral Thinking\" protest movement.\r\n\r\nThe protest faction, best known for staging demonstrations against COVID-19 pandemic restrictions, was calling for a reassessment of government measures and \"consequences for those responsible.\"\r\n\r\nHowever, a large contingent also protested against the German government's push to rebuild the country's military.\r\n\r\nHow the protests unfolded\r\nThe demonstration moved along the German capital's famous Kurfürstendamm shopping street toward Berlin-Tiergarten.\r\n\r\nThere, a stage had been set up for a  \"freedom, peace, joy\" rally organized by the movement's initiator Michael Ballweg.\r\n\r\nMany participants in the march protested against the policies of German Chancellor Olaf Scholz's center-left-led coalition government.\r\n\r\nSome carried placards for the fringe political party The Basis, which is seen as aligned with the Lateral Thinking movement.\r\n\r\nAmong the statements on display was \"Peace-ready, not war-ready,\" a reference to the statement by German Defense Minister Boris Pistorius that Germany must be prepared for conflict with Russia by 2029.\r\n\r\nAccording to the Berlin police in the late afternoon, the demonstration and rally had been peaceful and without incident, there were no arrests.\r\n\r\nHowever, there were several violations of the requirement not to display posters referring to the magazine \"Compact,\" which Germany's domestic intelligence service had classified as right-wing extremist and which was subsequently banned. A preliminary estimate by police put the crowd at the demonstration at around 9,000 people.\r\n\r\nBerlin police deployed 500 officers to monitor both the demonstration and several planned counter-demonstrations.\r\nWhat is the Lateral Thinking movement?\r\nThe movement began in Stuttgart and eventually spread across Germany during the coronavirus pandemic.\r\n\r\nSupporters repeatedly protested against lockdown measures and vaccine requirements as measures to contain the virus.\r\n\r\nAn estimated 20,000 people joined a demonstration against the coronavirus measures in Berlin in August 2020, although organizers claimed that the actual crowd was much larger.\r\n\r\nGermany's domestic intelligence service, the Federal Office for the Protection of the Constitution, in 2021 said it would keep parts of the anti-coronavirus lockdown movement under observation.\r\n\r\nWhile the protests became smaller after that, incidents of violence became more frequent. There was increasing concern that the rallies were being used as a platform for far-right and extremist views.\r\n\r\nProtesters were noted to have increasingly embraced conspiracy theories, most notably those floated by the QAnon movement which originated in the United States.\r\n\r\nThis article was written using material from the DPA news agency.\r\n\r\nEdited by: Sean Sinico,
-            pubDate: "2024-08-03 22:35:00",
-            image_url: "https://static.dw.com/image/69850544_6.jpg",
-            source_id: "dw",
-            source_priority: 2734,
-            source_name: "Dw Akademie",
-            source_url: "https://www.dw.com",
-            source_icon: "https://i.bytvi.com/domain_icons/dw.png",
-            language: "english",
-            country: [
-              "germany"
-            ],
-            category: [
-              "top"
-            ],
-            ai_tag: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment_stats: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            ai_region: "ONLY AVAILABLE IN CORPORATE PLANS",
-            ai_org: "ONLY AVAILABLE IN CORPORATE PLANS",
-            duplicate: false
-          },
-          {
-            article_id: "61e66958a2df17f83be5d03fb532b031",
-            title: "Nigerian police teargas protesters, arrest hundreds",
-            link: "https://www.dw.com/en/nigerian-police-teargas-protesters-arrest-hundreds/a-69850509?maca=en-rss-en-top-1022-rdf",
-            keywords: null,
-            creator: "DW",
-            video_url: null,
-            description: "Days of widespread demonstrations in Africa's most populous nation have left at least 13 people dead, Amnesty International says.",
-            content: "Nigerian police said they had arrested nearly 700 people in days of nationwide protests against the high cost of living.\r\n\r\nOn Saturday, police said they fired rubber bullets and teargas at protesters in the capital city, Abuja.\r\n\r\nAmnesty International said 50 journalists were among the 681 people arrested over the three days of demonstrations.\r\n\r\nDemonstrations to continue\r\nThe people who have been arrested are being accused by the police of \"armed robbery, arson, mischief,\" and damaging property. Damilare Adenola, leader of the Take It Back group organizing protests in Abuja, told the AFP news agency that police fired on protesters on Saturday, who \"were gathered peacefully.\"\r\n\r\n\"We are going to continue with the demonstrations,\" he added.\r\n\r\nThey demand that the government reduce fuel prices and address Nigeria's most severe economic crisis, with inflation reaching a 28-year high of 34%.\r\nPolice blamed for violent crackdown\r\nAmnesty International said security forces had killed 13 protesters since Thursday, blaming them for using live rounds.\r\n\r\nPolice denied this, saying seven people have so far died during the protests but that security forces killed none of them.\r\n\r\nPolice have sought to confine protesters to the outskirts of major cities to avoid disruptions to business and traffic. In particular, they deployed more forces to Kano State where some protesters attempted to break into a police station near the neighborhoods of Kurna and Rijiyar Lemo.\r\n\r\nIn the commercial hub of Lagos, more than 1,000 protesters held a peaceful demonstration against President Bola Tinubu's reforms, including the removal of a popular petrol subsidy and the devaluation of the currency, which sent inflation soaring.\r\n\r\nlo/msh (AFP, AP, Reuters),
-            pubDate: "2024-08-03 21:50:00",
-            image_url: "https://static.dw.com/image/69850610_6.jpg",
-            source_id: "dw",
-            source_priority: 2734,
-            source_name: "Dw Akademie",
-            source_url: "https://www.dw.com",
-            source_icon: "https://i.bytvi.com/domain_icons/dw.png",
-            language: "english",
-            country: [
-              "germany"
-            ],
-            category: [
-              "top"
-            ],
-            ai_tag: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment_stats: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            ai_region: "ONLY AVAILABLE IN CORPORATE PLANS",
-            ai_org: "ONLY AVAILABLE IN CORPORATE PLANS",
-            duplicate: false
-          },
-          {
-            article_id: "e2a0bc3cc5e58e6b23fc6353db70bc43",
-            title: "Venezuela opposition leader joins rally calling for overturning election results",
-            link: "https://www.euronews.com/2024/08/04/venezuela-opposition-leader-joins-rally-calling-for-overturning-election-results",
-            keywords: null,
-            creator: "Euronews",
-            video_url: null,
-            description: "Thousands of people rallied in the streets of Venezuela's capital Saturday, waving the national flag and singing the national anthem to support an opposition candidate they believe won the presidential election by a landslide.",
-            content: "Thousands of people rallied in the streets of Venezuela's capital Saturday to support an opposition candidate they believe won the presidential election by a landslide.\r\n\r\nThousands rallied in the streets of Venezuela’s capital on Saturday to support opposition leader Maria Corina Machado and opposition candidate Edmundo Gonzalez, who they believe won the presidential election by a landslide. \r\n\r\nAuthorities have declared President Nicolás Maduro the winner of last Sunday’s national elections in Venezuela but have yet to produce voting tallies to confirm his win. \r\n\r\nMaduro’s government arrested hundreds of opposition supporters who had taken to the streets in the days after the disputed poll. He has also threatened to lock up opposition leader María Corina Machado and her hand-picked presidential candidate, Edmundo González. Supporters chanted and sang as Machado arrived at the rally in Caracas on Saturday.\r\nMachado, who Maduro's government has barred from running for office for 15 years, had been in hiding since Tuesday, saying her life and freedom are at risk. \r\n\r\nMasked assailants ransacked the opposition's headquarters on Friday, taking documents and vandalising the space. Maduro held a Venezuela flag aloft on Saturday and promised that the government whose policies have forces million to emigrate was finally coming to an end. \r\n\r\n\"We have already won the election. Now comes a new stage. We knew that just as it took us a long time to achieve the electoral victory, now comes a stage that we live day by day. But we have never been as strong as we are today. Never has the regime been as weak as it is today,\" said Machado before thousands of supporters. \r\n\r\nWhen the rally ended, Machado was given a nondescript shirt and whisked away on the back of a motorcycle. \r\n\r\nGonzález, who remains in hiding, was not seen at the event.\r\n\r\n,
-            pubDate: "2024-08-03 23:47:29",
-            image_url: "https://static.euronews.com/articles/stories/08/62/74/30/1200x675_cmsv2_0f45e430-de31-5f28-bc2b-69d760d4a2ed-8627430.jpg",
-            source_id: "euronews",
-            source_priority: 3311,
-            source_name: "Euronews",
-            source_url: "https://www.euronews.com",
-            source_icon: "https://i.bytvi.com/domain_icons/euronews.png",
-            language: "english",
-            country: [
-              "france"
-            ],
-            category: [
-              "top"
-            ],
-            ai_tag: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment_stats: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            ai_region: "ONLY AVAILABLE IN CORPORATE PLANS",
-            ai_org: "ONLY AVAILABLE IN CORPORATE PLANS",
-            duplicate: false
-          },
-          {
-            article_id: "8a77cc016eef98e5c012d977aeb9bb34",
-            title: "UK: Riots continue for a fourth day in wake of mass stabbing",
-            link: "https://www.dw.com/en/uk-riots-continue-for-a-fourth-day-in-wake-of-mass-stabbing/a-69851161?maca=en-rss-en-top-1022-rdf",
-            keywords: null,
-            creator: "DW",
-            video_url: null,
-            description: "Clashes between anti-immigration and anti-racism groups continued for a fourth night with violence across the UK. Several people have been arrested and the government has warned of strong penalties.",
-            content: "The Prime Minister of the United Kingdom, Sir Keir Starmer, will chair an emergency \"Cobra\" meeting on Monday to discuss the government's response to far-right rioting which continued across the country this weekend.\r\n\r\nPockets of violence broke out in several British towns and cities over the past week after three young girls were killed in a knife attack in Southport in northwest England last Monday.\r\n\r\nA 17-year-old boy named as Axel Rudakubana, who was born in Cardiff, Wales, to Rwandan parents, has been arrested and charged with three counts of murder, a further 10 counts of attempted murder and one count of possessing a blade.\r\n\r\nMore than 150 people were arrested over the weekend alone after anti-immigration protesters clashed with police, looted shops and tried to attack mosques, with many chanting far-right, racist and Islamophobic slurs.\r\n\r\nHome Secretary condemns 'disgraceful scenes'\r\nSpeaking on breakfast television in the UK on Monday morning, the Home Secretary – the interior minister – Yvette Cooper promised there \"will be a reckoning\" for those responsible for what she called \"disgraceful scenes.\"\r\n\r\n\"Nobody should have to put up with this,\" she said. “Lots of people have concerns and views about crime, about the NHS [National Health Service], about immigration, but they don't pick up bricks and throw them at the police, they don't try and set light to a hotel where people are known to be inside it, they don’t loot shops as a result.\"\r\n\r\nCooper said those involved in the disorder \"do not speak for Britain\" but praised those people who have helped to clean up and repair damage.\r\n\r\n\"Right across the country, we've seen people coming out in our towns and cities to clean up, to make sure they can rebuild the wall in front of the mosque, to make sure that they can clear up the debris and the damage that's been left from the fires,\" she said. \"Those are the people who speak for Britain.\"\r\n\r\nWhat is a 'Cobra' meeting?\r\n\"Cobra\" stands for \"Cabinet Office Briefing Room A,\" where the UK government convenes emergency response meetings in times of urgent crisis.\r\n\r\nCobra meetings involve government ministers, senior civil servants, police chiefs, intelligence officers and any other relevant officials deemed appropriate for the issue in question.\r\n\r\nCobra meetings were held regularly during the COVID-19 pandemic, for instance.\r\n\r\nThe acronym has nothing to do with the venomous snake of the same name.\r\nUK: what happened in over the weekend?\r\nPolice in the northern English city of Rotherham struggled to hold back a group of far-right activists on Sunday, who broke into a hotel believed to be housing asylum-seekers.\r\n\r\nFootage aired on British TV showed officers with shields targeted by a barrage of projectiles outside the Holiday Inn Express hotel in Rotherham, near Sheffield.\r\n\r\nA few minutes later, the protesters can be seen storming the building and removing chairs from inside to use as weapons.\r\n\r\nA small fire was also visible while windows in the hotel were smashed. At least one officer was injured in the confrontation.\r\n\r\nLate Sunday, Staffordshire police said another hotel known to have sheltered asylum-seekers was targeted near Birmingham.\r\n\r\n\"A large group of individuals\" have been \"throwing projectiles, smashing windows, starting fires and targeting police\" at the hotel in the town of Tamworth, with one officer injured, said the statement.\r\n\r\nThere were more anti-immigration protests and counter-demonstrations elsewhere, including the northeastern city of Middlesborough, where officers used police dogs to control the crowd.\r\n\r\nIn the cities of Liverpool, Bolton and Southport — where the mass stabbing took place — the police were granted the right to issue dispersal orders, allowing them to stop protests from taking place on Sunday.\r\n\r\nUK PM says far-right rioters will 'regret' actions\r\nPrime Minister Starmer condemned the attack on hotels housing asylum-seekers and described it as \"far-right thuggery.\"\r\n\r\n\"We will do whatever it takes to bring these thugs to justice,\" said Starmer.\r\n\r\n\"These thugs are mobile, they move from community to community, and we must have a police response that can do the same.\"\r\n\r\n\"Mosques being attacked because they're mosques — the far-right are showing who they are. We have to show who we are in response to that.\"\r\n\r\nBritain's Home Secretary (or interior minister) Yvette Cooper called the \"criminal, violent attack\" on the hotel \"utterly appalling: Deliberately setting fire to a building with people known to be inside.\"\r\n\r\nShe said police had \"full Government support for the strongest action against those responsible.\"\r\nDozens arrested during Saturday's riots\r\nClose to 100 people were arrested after skirmishes broke out at far-right rallies in Liverpool, Manchester, Bristol, Blackpool and Hull, as well as Belfast in Northern Ireland on Saturday.\r\n\r\nIn Liverpool, in the northwest, protesters threw chairs, flares and bricks at police officers. Manchester also saw clashes between officers and rioters. \r\n\r\nIn the city of Hull, protesters broke windows of a hotel that was housing migrants, the BBC reported. \r\n\r\nIn Belfast, fireworks were thrown due to a clash between an anti-Islam group and anti-racism protesters.\r\n\r\nOpposing groups also faced off in the cities of Nottingham and Bristol.\r\n\r\nIn Leeds, anti-immigration protesters carrying British flags chanted, \"You're not English anymore.\" They were met with counter-protesters shouting, \"Nazi scum off our streets.\"\r\n\r\nOn Friday, Sunderland saw violence erupt as a police station and an overturned car were set on fire.\r\n\r\nIn London, a pro-Palestinian demonstration was carried out as usual despite counterprotesting nearby.\r\n\r\nWhy did the riots break out?\r\nThe riots began last week due to misinformation over a mass stabbing at a Taylor Swift-themed dance party at a studio in Southport, a seaside town in northwest England.\r\n\r\nThree children were killed in the knife attack, and 10 other people — eight of whom were children — were injured.\r\n\r\nA 17-year-old boy, Axel Rudakubana, has been charged with several offenses, including the girls' murder, which happened during a Taylor Swift-themed workshop.\r\n\r\nRudakubana is accused of killing Bebe King, 6, Elsie Dot Stancombe, 7, and Alice Dasilva Aguiar, 9, and injuring another 10 people.\r\n\r\nSince the Southport attack, far-right social media channels have been awash with false claims that the suspect was an asylum-seeker who had arrived in the UK by boat.\r\n\r\nPolice have emphasized that Rudakubana was born in Britain.\r\n\r\nHe was remanded to a youth detention center and will next appear in court in October.\r\n\r\nThe unrest is seen as UK Prime Minister Keir Starmer's first major test after joining office less than a month ago. He has condemned the violence and said thugs were \"hijacking\" the nation's grief. \r\n\r\nPolice believe the English Defence League, an anti-Islam organization, is behind the violence. Anti-racism campaign group Hope Not Hate says it has identified 30 more such events set to take place over the weekend.\r\n\r\nmm, tg, rc/msh (dpa, AFP, AP, Reuters),
-            pubDate: "2024-08-04 03:12:00",
-            image_url: "https://static.dw.com/image/69851116_6.jpg",
-            source_id: "dw",
-            source_priority: 2734,
-            source_name: "Dw Akademie",
-            source_url: "https://www.dw.com",
-            source_icon: "https://i.bytvi.com/domain_icons/dw.png",
-            language: "english",
-            country: [
-              "germany"
-            ],
-            category: [
-              "top"
-            ],
-            ai_tag: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment_stats: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            ai_region: "ONLY AVAILABLE IN CORPORATE PLANS",
-            ai_org: "ONLY AVAILABLE IN CORPORATE PLANS",
-            duplicate: false
-          },
-          {
-            article_id: "76281bda872cb7b4387924ac98ca57f5",
-            title: "'They're tightening the screws': Kremlin ups attacks on critics abroad",
-            link: "https://www.bbc.com/news/articles/cl4y0j47xe4o",
-            keywords: null,
-            creator: "BBC",
-            video_url: null,
-            description: "With dissent snuffed out at home, Russia intensifies attacks on opponents seeking refuge in the West.",
-            content: "Two plain-clothed UK police officers were waiting for Dmitry Gudkov as he arrived at London’s Luton Airport last summer. The Russian opposition politician, who lives in exile in an EU country, was flying to the UK to attend a friend’s birthday.\r\n“They were there to intercept me immediately after I exited the plane,” Dmitry says. “That had never happened to me before.\"\r\nBut the police weren’t arresting him – instead, they wanted to warn him.\r\n“They told me I’m on a list of people who are in danger. They asked where I’ll be staying and what phone I’ll be using.”\r\nDmitry Gudkov is the co-founder of the Anti-War Committee, an organisation that co-ordinates efforts to oppose the war in Ukraine. He is wanted in Russia for \"spreading fakes\" about the Russian army.\r\nThe start of Russia's full-scale invasion of Ukraine in 2022 led to a wide-ranging crackdown against opponents inside Russia. Almost all activists and independent journalists fled the country.\r\nNow, a number of Kremlin critics living in Europe have told the BBC that Russia is stepping up its efforts to silence, threaten and persecute opponents abroad. Some were unwilling to share their stories publicly. The Russian embassy in London didn’t respond to a request for comment.\r\n'They can get their hands on people almost anywhere'\r\nAnalyst Mark Galeotti, who studies the Russian security services, agrees that the campaign against Russia’s \"enemies\" abroad is intensifying. “I think it reflects the growing paranoia of the Kremlin,” he says, “that it is involved in an existential political struggle.\"\r\nWith all dissent snuffed out at home, Russia is turning its attention to opponents who have sought refuge in the West. Dmitry Medvedev, a former Russian president who is now deputy head of Russia's Security Council, described them as “traitors who have gone over to the enemy and want their Fatherland to perish”.\r\nAnother anti-Kremlin activist was also contacted by British police. “They said they needed to discuss the safety of me and my family,” Ksenia Maximova tells me.\r\nThe founder of the Russian Democratic Society in London says the police advised her not to travel to certain countries where Russian agents operate more freely.\r\n“[The Kremlin is] stepping up the campaign against ‘enemies’, that’s absolutely true,” she says, “They’re tightening the screws.”\r\nShe and her fellow campaigners have noticed an uptick in cyber attacks and attempts to infiltrate the group online.\r\nIn a statement to the BBC, a spokesperson for UK Counter Terrorism Policing said, “We have been open for some time now about the growing demand within our casework relating to countering state threats… We have been actively increasing resources dedicated to countering the activity of hostile states.”\r\nIn December, new UK legislation came into effect, giving police more powers to tackle threats from hostile states such as Russia.\r\n\"Parasites can’t sleep in peace...\" was one of the messages that investigative journalist Alesya Marokhovskaya received last year.\r\nThe threats were accompanied by the name of the street in Prague where she lived. “I moved house to make it harder for them,” says Alesya.\r\n“We thought it may just be some crazy Czech guy who was pro-Putin and had recognised me on the street.”\r\nBut then the messages became more sinister - calling her a \"scumbag\" and promising to find her \"wherever she walks her wheezing dog\".\r\nAlesya’s dog really does wheeze when it walks. She informed the Czech police.\r\nLater, Alesya was due to fly to Sweden to attend a conference. The sender then sent even more specific threats: details of her flight, seat number and the hotel she had booked. “It was clear they had high-level access to documents,” Alesya says. “It looks like the behaviour of the Russian state.”\r\nAlesya had been branded a 'foreign agent’ years before by the Russian government, due to her work at independent Russian news website iStories.\r\n“When I left Russia and came to Prague, I had this illusion of security,” says Alesya. “Now I realise that [Russian intelligence services] can get their hands on people almost anywhere in Europe. I can’t say I’m not afraid, because I am.\"\r\nBut why is this happening now? Experts suggest the Russian security services are beginning to activate operations abroad after a period of turmoil. Hundreds of Russian diplomats believed to be intelligence agents operating under diplomatic cover were expelled from Western countries following the full-scale invasion of Ukraine.\r\n“There was a period of confusion after 2022,” says Andrei Soldatov, a Russian journalist who writes about the intelligence services. “In 2023, the agencies regrouped and found a new sense of purpose. They got resources and began increasing pressure.”\r\nMark Galeotti says the authorities are increasingly turning to proxies to do their dirty work - criminal gangs: “If you want someone beaten up or even killed, they’re a lot easier to engage,” says Mr Galeotti, who has been writing about the links between the Russian state and organised crime for years.\r\n“They’re going to be some thug – maybe someone whom the Russian-based organised crime groups have at some point dealt with.”\r\nThe Polish government believes that’s what happened in the case of Leonid Volkov, a prominent activist and associate of the late Alexei Navalny. He was brutally attacked with a hammer in Lithuania four months ago, but survived.\r\nThe Polish Prime Minister, Donald Tusk, said a Belarusian man working for Russian intelligence had paid two Polish football hooligans to carry out the assault. All three have been arrested.\r\n“Intimidation is the intent,” suggests Mark Galeotti. “The idea that you'd better keep your head down. It’s a way of deterring the emergence of some kind of coherent political opposition [to the Kremlin].”\r\nThe Russian authorities also try to make day-to-day life as difficult as possible for opponents abroad.\r\nActivist Olesya Krivtsova, 21, escaped from Russia after being arrested and threatened with jail for anti-war posts on social media. She now lives in Norway, but recently discovered her Russian passport had been cancelled, meaning she can’t apply for travel documents.\r\n“I think this is a new [method] of repression,” Olesya says. “They’re always thinking, how can we do more, how can we pressure them?”\r\nSeveral other activists living abroad have also had their passports cancelled without warning. Many have criminal cases open against them in Russia - without a valid passport, they cannot hire lawyers or make payments back home. The only way to resolve the issue is to return to Russia.\r\nFor Olesya, returning would mean arrest and prison. She has now applied for a temporary Norwegian ID for refugees.\r\n“In Russia, now I only have one right – the right to go to prison. My passport is cancelled. This shows the essence of their cruelty,” says the young activist.\r\n“They’ve already completely destroyed my life and the life of my family…They’re never going to stop.”,
-            pubDate: "2024-08-04 00:50:57",
-            image_url: "https://ichef.bbci.co.uk/news/240/cpsprodpb/eb79/live/10ee4020-4f42-11ef-aebc-6de4d31bf5cd.jpg",
-            source_id: "bbc",
-            source_priority: 103,
-            source_name: "The Bbc",
-            source_url: "http://www.bbc.com",
-            source_icon: "https://i.bytvi.com/domain_icons/bbc.jpg",
-            language: "english",
-            country: [
-              "united kingdom"
-            ],
-            category: [
-              "top", "politics"
-            ],
-            ai_tag: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            sentiment_stats: "ONLY AVAILABLE IN PROFESSIONAL AND CORPORATE PLANS",
-            ai_region: "ONLY AVAILABLE IN CORPORATE PLANS",
-            ai_org: "ONLY AVAILABLE IN CORPORATE PLANS",
-            duplicate: true
-          },
-          comments: {
+    	recipes: {
+    		"3987279d-0ad4-4afb-8ca9-5b256ae3b298": "uhfiawuhfa",
+    		"8f414b4f-ab39-4d36-bedb-2ad69da9c830": "vniajwbiwbv",
+    		"985d9eab-ad2e-4622-a5c8-116261fb1fd2": {
+    			_ownerId: "847ec027-f659-4086-8032-5173e2f9c93a",
+    			name: "Roast Trout",
+    			img: "assets/fish.jpg",
+    			ingredients: [
+    				"4 cups Ingredient 1",
+    				"1 tbsp Ingredient 2",
+    				"1 tbsp Ingredient 3",
+    				"750 g  Ingredient 4",
+    				"25 g Ingredient 5"
+    			],
+    			steps: [
+    				"Prepare ingredients",
+    				"Mix ingredients",
+    				"Cook until done"
+    			],
+    			_createdOn: 1613551388703
+    		}
+    	},
+        comments: {
     		"0a272c58-b7ea-4e09-a000-7ec988248f66": {
     			_ownerId: "35c62d76-8152-4626-8712-eeb96381bea8",
-    			commentText: "Great article!",
-    			articleId: "8f414b4f-ab39-4d36-bedb-2ad69da9c830",
+    			content: "Great recipe!",
+    			recipeId: "8f414b4f-ab39-4d36-bedb-2ad69da9c830",
     			_createdOn: 1614260681375,
     			_id: "0a272c58-b7ea-4e09-a000-7ec988248f66"
     		}
-    	}
-    };
+        }
+    }
     
     var rules$1 = {
     	users: {

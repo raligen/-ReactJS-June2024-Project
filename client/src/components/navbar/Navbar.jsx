@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useAuthContext } from "../../contexts/AuthContext'";
+import { useAuthContext } from "../../contexts/AuthContext";
 
 export default function Navbar(){
     const {isAuthenticated, email} = useAuthContext();
@@ -28,8 +28,14 @@ export default function Navbar(){
                   Home <span className="sr-only">(current)</span>
                 </Link>
               </li>
+
+              <li className="nav-item">
+                <Link className="nav-link" to="/articles">
+                  All articles
+                </Link>
+              </li>
               
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-expanded="false">
                     Categories
                 </a>
@@ -55,7 +61,7 @@ export default function Navbar(){
                 <Link className="nav-link" to="./technology">
                   Technology
                 </Link>
-              </li>
+              </li> */}
             </ul>
 
               {isAuthenticated
@@ -63,7 +69,7 @@ export default function Navbar(){
                       <ul id="user" className="navbar-nav ml-auto d-flex align-items-center">
                         <li className="nav-item highlight pl-1">
                           <Link className="btn" style={{backgroundColor: "#ff8533", color: "#fff", border: "1px solid #ff8533"}}
-                            to="/create-news" 
+                            to="/articles/create" 
                           >
                             Create News
                           </Link>

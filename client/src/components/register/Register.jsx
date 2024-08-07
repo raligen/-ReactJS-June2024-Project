@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useForm } from "../../hooks/useForm";
 import { useRegister } from "../../hooks/useAuth";
 
-const initialValues = {email: '', password: '', rePassword:'' }; 
+const initialValues = {email: '', password: '', confirmpass:'' }; 
 
 export default function Register(){
   const [error, setError] = useState('');
@@ -70,7 +70,7 @@ export default function Register(){
           <input
             type="password"
             className="form-control"
-            id="password"
+            id="confirmpass"
             placeholder="Confirm Password"
             required=""
             name="confirmpass"

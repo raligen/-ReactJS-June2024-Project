@@ -1,21 +1,20 @@
 import { useState } from 'react';
-import { Route, Routes} from 'react-router-dom';
+import { Route, Routes, Navigate} from 'react-router-dom';
+import { useParams } from "react-router-dom";
 
 import { AuthContextProvider } from "./contexts/AuthContext";
 
 import Navbar from "./components/navbar/Navbar";
 import Home from './components/home/Home';
 import Footer from './components/footer/Footer'
-import Categories from './components/categories/Categories'
-import Politics from './components/categories/politics/Politics'
-import Business from './components/categories/business/Business'
-import Technology from './components/categories/technology/Technology'
-import ArticleForm from './components/article-form/ArticleForm';
+import ArticleDetails from './components/article/ArticleDetails';
 import Register from './components/register/Register';
 import Login from './components/login/Login';
 import Logout from './components/logout/Logout';
 import ArticleCreate from "./components/article-create/ArticleCreate";
-import ArticleDetails from "./components/article-details/ArticleDetails";
+import ArticleEdit from "./components/article-edit/ArticleEdit";
+import ArticleList from "./components/article-list/ArticleList";
+import ArticleListItem from "./components/article-list/article-list-item/ArticleListItem";
 
 
 
@@ -23,22 +22,23 @@ function App() {
   return (
     <AuthContextProvider>
       <div>
+        <main id="main-content">
          <Navbar />
 
-         <main id="main-content">
             <Routes>
-                <Route path='/' element={<Home />}/>
-                <Route path='/politics' element={<Politics />}/>
-                <Route path='/business' element={<Business />}/>
-                <Route path='/technology' element={<Technology />}/>
-                <Route path='/create-news' element={<ArticleForm />}/>
-                <Route path='/register' element={<Register />}/>
-                <Route path='/login' element={<Login />}/> 
-                <Route path='/logout' element={<Logout />}/> 
+                <Route path="/" element={<Home />}/>
+                <Route path="/articles" element={<ArticleList />}/>
+                <Route path="/articles/:articleId/details" element={<ArticleDetails />}/>
+                <Route path="/articles/:articleId/edit" element={<ArticleEdit />}/>
+                <Route path="/articles/create" element={<ArticleCreate />}/>
+                <Route path="/register" element={<Register />}/>
+                <Route path="/login" element={<Login />}/> 
+                <Route path="/logout" element={<Logout />}/> 
             </Routes>
-          </main> 
+          
 
          <Footer />
+        </main>  
      </div>
     </AuthContextProvider>
   )

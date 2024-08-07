@@ -29,7 +29,7 @@ REACTJS june 2024 news website project
 * Display comments in comment section
 * Clear form
 ## 7. API Hooks
-* GameAPI hooks
+* ArticlesAPI hooks
 * Comment Hooks
 * Form Hook
 ## 8. Authentication
@@ -43,7 +43,7 @@ REACTJS june 2024 news website project
 * Logout
 ## 9. UI Implementation
 * Dynamic navigation
-* Create game
+* Create Article
  - Api function
  - Hook
 * Latest News

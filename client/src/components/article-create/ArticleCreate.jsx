@@ -1,25 +1,29 @@
 import { useNavigate } from "react-router-dom";
 
 import { useForm } from "../../hooks/useForm";
+import { useAuthContext } from "../../contexts/AuthContext";
 
-const initialValues = {title: '', category: {} '', name:'', text: '' }; 
+const initialValues = {
+    title: '', 
+    category: '', 
+    creator: '', 
+    content: '', 
+    description: '', 
+    image_url: ''
+}; 
 
-export default function ArticleForm(){
-    const [category, setCategory] = useState('politics');
+export default function ArticleCreate(){
     const navigate = useNavigate();
     const createArticle = useCreateArticle();
 
-    const selectHandler = (e) => {
-        setCategory(e.target.value);
-    }
 
     const createHandler = async (values) => {
         try {
             const { _id: articleId } = await createArticle(values);
             navigate(`/articles/${articleId}/details`);
-        } catch(err) {
+        } catch(error) {
             //TODO set error state and display error
-            console.log(err.message)
+            console.log(error.message)
         }
     };
 
@@ -27,14 +31,13 @@ export default function ArticleForm(){
         values,
         changeHandler,
         submitHandler,
-    } = useForm(initialValues, createHandler)
+    } = useForm(initialValues, createHandler);
 
     return (
         <div className="d-flex p-2 center">
         <div className="p-5 border bg-lightgrey">
         <div>
             <h5 className="font-weight-bold secondfont">Create an Article</h5>
-            {/* <h6 className="mt-3">Create your article on one of the following categories:</h6> */}
         </div>
 
         <form onSubmit={submitHandler} className="mt-3"> 
@@ -46,37 +49,39 @@ export default function ArticleForm(){
             </div>
 
             <div className="col">
-                <input type="text" className="form-control" name="name" value={values.name} onChange={changeHandler} placeholder="Your name"/>
+                <input type="text" className="form-control" name="creator" value={values.creator} onChange={changeHandler} placeholder="Your name"/>
             </div>
 
             <div className="col">
-                <input type="text" className="form-control" name="imageUrl" placeholder="Provide a link to an image..."/>
+                <input type="text" className="form-control" name="image_url" value={values.image_url} onChange={changeHandler} placeholder="Provide an image url..."/>
             </div>
         
         </div>
 
-        <div className="row form-group">
-
-            <div className="col">
-                <label>
-                    Select a category:
-                    <select className="custom-select form-control" id="inputGroupSelect01" name="category" value={values.`${{category}}`} onChange={changeHandler(selectHandler)}>
-                        <option value="politics">Politics</option>
-                        <option value="business">Business</option>
-                        <option value="technology">Technology</option>
-                    </select>
-                </label>
-            </div>      
-
-        </div>
+        <div className="col">
+                <input type="text" className="form-control" name="category" value={values.category} onChange={changeHandler} placeholder="Politics, Business, Health..."/>
+         </div>
 
         <div className="form-group">
             <textarea 
                     className="form-control" 
                     id="exampleFormControlTextarea1" 
+                    rows="2"
+                    placeholder="Short description"
+                    name="description"
+                    value={values.description}
+                    onChange={changeHandler}
+            >
+            </textarea>
+        </div>
+        <div className="form-group">
+            <textarea 
+                    className="form-control" 
+                    id="exampleFormControlTextarea1" 
                     rows="6"
-                    name="text"
-                    value={values.text}
+                    placeholder="Write your article here..."
+                    name="content"
+                    value={values.content}
                     onChange={changeHandler}
             >
             </textarea>
