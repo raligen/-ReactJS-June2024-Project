@@ -35,37 +35,10 @@ export default function Navbar(){
                 </Link>
               </li>
               
-              {/* <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-expanded="false">
-                    Categories
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><Link className="dropdown-item" to="/politics">Politics</Link></li>
-                    <li><Link className="dropdown-item" to="/business">Business</Link></li>
-                    <li><Link className="dropdown-item" to="/technology">Technology</Link></li>
-                </ul>
-              </li>
-                      
-              <li className="nav-item">
-                <Link className="nav-link" to="./politics">
-                  Politics
-                </Link>
-              </li>
-
-              <li className="nav-item">
-                <Link className="nav-link" to="./business">
-                  Business
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="./technology">
-                  Technology
-                </Link>
-              </li> */}
             </ul>
 
-              {isAuthenticated
-                  ? (
+              {/* {isAuthenticated
+                  ? ( */}
                       <ul id="user" className="navbar-nav ml-auto d-flex align-items-center">
                         <li className="nav-item highlight pl-1">
                           <Link className="btn" style={{backgroundColor: "#ff8533", color: "#fff", border: "1px solid #ff8533"}}
@@ -88,8 +61,8 @@ export default function Navbar(){
                           </Link>
                         </li>
                       </ul>
-                  )
-                  : (
+                  {/* // )
+                  // : ( */}
                       <ul id="guest" className="navbar-nav ml-auto d-flex align-items-center">
                         <li className="nav-item highlight pl-1">
                           <Link
@@ -108,11 +81,9 @@ export default function Navbar(){
                           </Link>
                         </li>
                       </ul>
-                  )               
+                  {/* )               
               }
-              
-            
-
+               */}
           </div>
         </div>
       </nav>

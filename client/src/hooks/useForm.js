@@ -8,8 +8,8 @@ export function useForm(initialValues, submitCallback) {
     }, [initialValues]);
 
     const changeHandler= (e) => {
-        setValues(prevState => ({
-            ...prevState,
+        setValues(state => ({
+            ...state,
             [e.target.name]: e.target.value
         }))
     }
@@ -25,4 +25,4 @@ export function useForm(initialValues, submitCallback) {
         changeHandler,
         submitHandler
     )
-}
+};

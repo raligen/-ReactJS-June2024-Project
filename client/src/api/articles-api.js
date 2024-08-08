@@ -1,4 +1,4 @@
-import * as requester from "./requester";
+import requester from "./requester";
 
 const BASE_URL = 'http://localhost:3030/data/articles';
 
@@ -12,7 +12,7 @@ export const getAll = async () => {
 
 export const getLatest = async () => {
     const urlSearchParams = new URLSearchParams({
-        sortBy: `_createdOn desc`,
+        sortBy: `_createdOn%20desc`,
         pageSize: 5,
     });
 

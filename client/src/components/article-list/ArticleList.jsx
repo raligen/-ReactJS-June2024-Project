@@ -14,9 +14,9 @@ export default function ArticleList(){
                 <span>Categories</span>
               </h5>
               
-              <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a type="button" class="nav-link active" href="#">All news</a>
+              <ul className="nav justify-content-center">
+                    <li className="nav-item">
+                        <a type="button" className="nav-link active" href="#">All news</a>
                     </li>
               </ul>
         

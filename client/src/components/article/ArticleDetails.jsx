@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import articlesAPI from "../../api/articles-api";
 import commentsAPI from "../../api/comments-api";
 import { useForm } from "../../hooks/useForm";
 import { useAuthContext } from "../../contexts/AuthContext";
+import { useGetOneArticles} from "../../hooks/useArticles";
 import  { useCreateComment, useGetAllComments } from "../../hooks/useComments";
 
 import ReadNext from "./read-next/ReadNext";
@@ -57,19 +59,19 @@ export default function ArticleDetails(){
           <div className="h-100 tofront">
             <div className="row justify-content-between">
               <div className="col-md-6 pt-6 pb-6 pr-6 align-self-center">
-                <p className="text-uppercase font-weight-bold">
+                <h1 className="text-uppercase font-weight-bold">
                   <p className="text-danger">
                     {article.category}
                   </p>
-                </p>
+                </h1>
                 <h1 className="display-4 secondfont mb-3 font-weight-bold">
                   {article.title}
                 </h1>
                 <div className="d-flex align-items-center">
                   <small className="ml-2">
-                    <p>
+                    <span>
                       {article.source_name}
-                    </p>{" "}
+                    </span>
                     <span className="text-muted">
                       {article.pubDate}
                     </span>

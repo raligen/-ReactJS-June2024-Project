@@ -15,7 +15,7 @@ import ArticleCreate from "./components/article-create/ArticleCreate";
 import ArticleEdit from "./components/article-edit/ArticleEdit";
 import ArticleList from "./components/article-list/ArticleList";
 import ArticleListItem from "./components/article-list/article-list-item/ArticleListItem";
-
+import AuthorizedView from "./components/common/AuthorizedView";
 
 
 function App() {

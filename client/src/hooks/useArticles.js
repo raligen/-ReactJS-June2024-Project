@@ -16,7 +16,7 @@ export function useGetAllArticles() {
         })();
     }, []);
 
-    return [articles, setArticles]
+    return [article, setArticle]
     
 }
 

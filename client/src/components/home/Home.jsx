@@ -24,7 +24,7 @@ export default function Home() {
             </h5>        
 
         {latestNews.length > 0
-          ? latestNews.map(articles => <LatestNews key={article._id} {...articles}/>)
+          ? latestNews.map(articles => <LatestNews key={articles._id} {...articles}/>)
           : <h2 className="h4 font-weight-bold">No news yet</h2>
         }
         

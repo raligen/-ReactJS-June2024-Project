@@ -1,3 +1,4 @@
+import {useState, useEffect} from "react";
 import commentsAPI from '../api/comments-api';
 
 export function useCreateComment() {

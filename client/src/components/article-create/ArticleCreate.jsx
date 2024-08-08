@@ -1,7 +1,7 @@
-import { useNavigate } from "react-router-dom";
-
 import { useForm } from "../../hooks/useForm";
 import { useAuthContext } from "../../contexts/AuthContext";
+import { useNavigate } from "react-router-dom";
+import { useCreateArticle } from "../../hooks/useArticles";
 
 const initialValues = {
     title: '', 
@@ -16,10 +16,9 @@ export default function ArticleCreate(){
     const navigate = useNavigate();
     const createArticle = useCreateArticle();
 
-
     const createHandler = async (values) => {
         try {
-            const { _id: articleId } = await createArticle(values);
+            const { _id: articleId } = await createArticle(values)
             navigate(`/articles/${articleId}/details`);
         } catch(error) {
             //TODO set error state and display error

@@ -1,21 +1,25 @@
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { useForm } from "../../hooks/useForm";
 import { useRegister } from "../../hooks/useAuth";
 
-const initialValues = {email: '', password: '', confirmpass:'' }; 
+const initialValues = {
+  email: '',
+  password: '',
+  confirmpass:'',
+ }; 
 
-export default function Register(){
-  const [error, setError] = useState('');
+export default function Register() {
   const register = useRegister();
   const navigate = useNavigate();
   
-  const registerHandler = async ({email, password, confirmpass}) => {
-        if (password !== confirmpass) {
+  const registerHandler = async (values) => {
+        if (values.password !== values['confirmpass']) {
             return setError('Passwords do not match.');
         }
         try {
-            await register(email, password)
+            await register(values.email, values.password)
             navigate('/');
         } catch (err) {
             setError(err.message);
@@ -94,23 +98,3 @@ export default function Register(){
       </div>
     );
 }
-
-{/* <div className="border p-5 bg-lightgrey"> */}
-
-
-  {/* <div className="col-md-7">
-    <div className="row">
-      <div className="col-md-12">
-        <input
-          type="text"
-          className="form-control"
-          placeholder="Enter your e-mail address"
-        />
-      </div>
-      <div className="col-md-12 mt-2">
-        <button type="submit" className="btn btn-success btn-block">
-          Subscribe
-        </button>
-      </div>
-    </div>
-  </div> */}

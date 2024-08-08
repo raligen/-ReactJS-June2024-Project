@@ -9,9 +9,9 @@ export default function Login(){
     const login = useLogin();
     const navigate = useNavigate();
     
-    const loginHandler = async ({email, password}) => {
+    const loginHandler = async (values) => {
           try {
-            await login(email, password)
+            await login(values.email, values.password)
             navigate('/');
           } catch (err) {
            console.log(err.message);
@@ -19,7 +19,7 @@ export default function Login(){
         };
 
         const {
-          values, 
+          values,
           changeHandler, 
           submitHandler
         } = useForm(initialValues, loginHandler);

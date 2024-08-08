@@ -12,13 +12,13 @@ export default function LatestNews({
   {
     return (
 
-      <div class="container">
-      <div class="jumbotron jumbotron-fluid mb-3 pt-0 pb-0 bg-lightblue position-relative">
-        <div class="pl-4 pr-0 h-100 tofront">
-          <div class="row justify-content-between">
-            <div class="col-md-6 pt-6 pb-6 align-self-center">
-              <h1 class="secondfont mb-3 font-weight-bold">{title}</h1>
-              <p class="mb-3">
+      <div className="container">
+      <div className="jumbotron jumbotron-fluid mb-3 pt-0 pb-0 bg-lightblue position-relative">
+        <div className="pl-4 pr-0 h-100 tofront">
+          <div className="row justify-content-between">
+            <div className="col-md-6 pt-6 pb-6 align-self-center">
+              <h1 className="secondfont mb-3 font-weight-bold">{title}</h1>
+              <p className="mb-3">
                 {description}
               </p>
               <div>
@@ -33,7 +33,7 @@ export default function LatestNews({
                   Read More
               </Link>
             </div>
-            <div class="col-md-6 d-none d-md-block pr-0" 
+            <div className="col-md-6 d-none d-md-block pr-0" 
             style={{
                   backgroundSize: "cover",
                   backgroundImage: `${image_url}`
@@ -51,7 +51,7 @@ export default function LatestNews({
 
 
 
-        {/* <div className="container pt-4 pb-4 align-self-center">          
+        {/* <div NameName="container pt-4 pb-4 align-self-center">          
         
             <div>
             <div className="jumbotron jumbotron-fluid mb-3 pt-0 pb-0 bg-lightblue position-relative">
