@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import * as requester from "../../api/requester";
 import articlesAPI from "../../api/articles-api";
+
 import LatestNews from "../latest-news/LatestNews";
 
 export default function Home() {
@@ -11,14 +12,14 @@ export default function Home() {
             const result = await articlesAPI.getLatest();
             setLatestNews(result);
       })();
-    }, [])
+    }, []);
 
     return (
       
-      <div className="container pt-4 pb-4">
-        <div className="row">
-          <div className="col-lg-6">
-            <div className="card border-0 mb-4 box-shadow h-xl-300">      
+      
+      <div className="container">
+        
+            {/* <div className="card border-0 mb-4 box-shadow h-xl-300">       */}
             <h5 className="m-0 pt-0 font-weight-bold spanborder">
                 <span>Latest News</span>
             </h5>        
@@ -28,10 +29,9 @@ export default function Home() {
           : <h2 className="h4 font-weight-bold">No news yet</h2>
         }
         
-        </div>
-        </div>
+        
        </div>
-       </div>
+      //  </div>
 
         // <div className="container pt-4 pb-4">
       

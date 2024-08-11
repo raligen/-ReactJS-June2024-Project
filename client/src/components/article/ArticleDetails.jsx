@@ -9,7 +9,7 @@ import { useAuthContext } from "../../contexts/AuthContext";
 import { useGetOneArticles} from "../../hooks/useArticles";
 import  { useCreateComment, useGetAllComments } from "../../hooks/useComments";
 
-import ReadNext from "./read-next/ReadNext";
+//import ReadNext from "./read-next/ReadNext";
 
 const initialValues = {
   comment: ''
@@ -20,7 +20,7 @@ export default function ArticleDetails(){
   const {articleId} = useParams();      
   const [comments, setComments] = useGetAllComments(articleId);
   const createComment = useCreateComment();
-  const {email, userId } = useAuthContext();
+  // const {email, userId } = useAuthContext();
   const [article] = useGetOneArticles(articleId);
   const { isAuthenticated } = useAuthContext(); 
   const {
@@ -31,7 +31,7 @@ export default function ArticleDetails(){
       try {
         const newComment = await createComment(articleId, comment);
         setComments(oldComments => [...oldComments, newComment]);
-      } catch (error) {
+      } catch (err) {
         console.log(err.message);
       }
      
@@ -50,7 +50,7 @@ export default function ArticleDetails(){
     }
   }
 
-  const isOwner = userId === article._ownerId;
+  // const isOwner = userId === article._ownerId;
   
   return (
     <>
@@ -106,7 +106,7 @@ export default function ArticleDetails(){
                         src="https://via.placeholder.com/40x40"
                         className="rounded-circle me-2"
                       />
-                      <a className="fw-semibold text-decoration-none">{comment.author.email}</a>
+                      <a className="fw-semibold text-decoration-none">{comment.author}</a>
                     </header>
                     <div className="card-body py-1">
                       <form onSubmit={submitHandler}>
@@ -152,29 +152,29 @@ export default function ArticleDetails(){
 
         {/* show comments */}
         {comments.map(comment => (
-        <article key={comment._id} className="card bg-light">
+        <article key={comment.articleId} className="card bg-light">
           <header className="card-header border-0 bg-transparent d-flex align-items-center">
             <div>
               <img
                 src="https://via.placeholder.com/40x40"
                 className="rounded-circle me-2"
               />
-              <a className="fw-semibold text-decoration-none">{comment.author.email}</a>
+              <a className="fw-semibold text-decoration-none">{comment.author}</a>
             </div>
           </header>
           <div className="card-body py-2 px-3">
             {comment.comment}
           </div>
-          {isOwner && (
+          {/* {isOwner && ( */}
             <footer class="card-footer bg-white border-0 py-1 px-3">
-                <Link to={`/articles/${_id}/edit`} type="button" className="btn btn-link btn-sm text-decoration-none">
+                <Link to={`/articles/${articleId}/edit`} type="button" className="btn btn-link btn-sm text-decoration-none">
                   Edit
                 </Link>
                 <button onClick={articleDeleteHandler} type="button" className="btn btn-link btn-sm text-decoration-none">
                   Delete
                 </button>
             </footer>              
-            )}
+            {/* )} */}
         </article>
         ))}
 

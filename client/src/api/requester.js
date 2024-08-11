@@ -26,7 +26,7 @@ async function requester(method, url, data){
     }
     
 
-    const response = await fetch(url, options);
+    const response = await fetch('http://localhost:3030/data/articles', options);
     if (response.status === 204) {
         return;
     }

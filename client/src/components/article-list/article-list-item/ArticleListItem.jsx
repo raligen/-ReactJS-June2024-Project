@@ -1,45 +1,52 @@
+import React from "react";
 import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
+
 
 export default function ArticleListItem({
-  _id,
+  _id, 
   title, 
-  category, 
-  creator, 
   description, 
-  image_url,
+  category,
+  creator, 
+  image_url, 
+  pubDate
 }) {
+
+const {articleId} = useParams();      
+
     return (
-      <div className="col-lg-6">
-        <div className="card border-0 mb-4 box-shadow h-xl-300">
-          <div
-            style={{
-              backgroundImage: `${image_url}`,
-              height: 150,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat"
-            }}
-          />
-          <div className="card-body px-0 pb-0 d-flex flex-column align-items-start">
-            <h2 className="h4 font-weight-bold">
-              <Link className="text-dark" to={`/articles/${_id}/details`}>
-                {title}
-              </Link>
-            </h2>
-            <p className="card-text">
-              {description}
-            </p>
-            <div>
-              <small className="d-block">
-                <a className="text-muted" href="./author.html">
-                  {creator}
-                </a>
-              </small>
-              <small className="text-muted">{category}</small>
-              <small className="text-muted">{pubDate}</small>
-            </div>
+      <div className="col-lg-6 mt-3">
+      <div className="card border-0 mb-4 box-shadow h-xl-500">
+            <div className="row  justify-content-between">
+            <div className="card-body px-0 pb-0 d-flex flex-column align-items-start ">
+                <h2 className="h4 mb-3 font-weight-bold">{title}</h2>
+                <p className="mb-3">
+                  {description}
+                </p>
+                <div>
+                    <small className="d-block">
+                       <p className="text-muted">
+                         {creator}
+                        </p>
+                    </small>
+                    <small className="text-muted">{pubDate}</small>
+                 </div>  
+                <Link to={`/articles/${articleId}s`} className="btn btn-dark">
+                    Read More
+                </Link>
+              </div>
+              <div className="col-md-6 d-none d-md-block pr-0" 
+              style={{
+                    backgroundSize: "cover",
+                    backgroundImage: `${image_url}`
+                  }} 
+                  >
+                  {" "}
+                </div>    
+              </div>
+              </div>
           </div>
-        </div>
-      </div>
     
     );
 }

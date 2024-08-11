@@ -1,19 +1,18 @@
 import requester from "./requester";
 
-const BASE_URL = 'http://localhost:3030/data/articles';
+const BASE_URL = 'http://localhost:3030/data/articles/';
 
 export const getAll = async () => {
     const result = await requester.get(BASE_URL);
 
-    const articles = Object.values(result);
+    const allNews = Object.values(result);
 
-    return articles;
-}
+    return allNews;
+};
 
 export const getLatest = async () => {
     const urlSearchParams = new URLSearchParams({
-        sortBy: `_createdOn%20desc`,
-        pageSize: 5,
+        sortBy: `_createdOn desc`
     });
 
     const result = await requester.get(`${BASE_URL}?${urlSearchParams.toString()}`);
@@ -22,6 +21,7 @@ export const getLatest = async () => {
 
     return latestNews;
 };
+
 
 export const getOne = (articleId) => requester.get(`${BASE_URL}/${articleId}`);
 

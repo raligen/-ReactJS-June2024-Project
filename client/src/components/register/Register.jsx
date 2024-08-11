@@ -30,7 +30,7 @@ export default function Register() {
         values, 
         changeHandler, 
         submitHandler
-      } = useForm(initialValues, registerHandler);  
+      } = useForm(initialValues, registerHandler);
 
 
     return (

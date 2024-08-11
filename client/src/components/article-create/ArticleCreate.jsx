@@ -1,7 +1,7 @@
-import { useForm } from "../../hooks/useForm";
-import { useAuthContext } from "../../contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
+import { useAuthContext } from "../../contexts/AuthContext";
 import { useCreateArticle } from "../../hooks/useArticles";
+import { useForm } from "../../hooks/useForm";
 
 const initialValues = {
     title: '', 
@@ -13,13 +13,13 @@ const initialValues = {
 }; 
 
 export default function ArticleCreate(){
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
     const createArticle = useCreateArticle();
 
     const createHandler = async (values) => {
         try {
             const { _id: articleId } = await createArticle(values)
-            navigate(`/articles/${articleId}/details`);
+            // navigate(`/articles/${articleId}/details`);
         } catch(error) {
             //TODO set error state and display error
             console.log(error.message)
@@ -30,7 +30,7 @@ export default function ArticleCreate(){
         values,
         changeHandler,
         submitHandler,
-    } = useForm(initialValues, createHandler);
+    } = useForm(initialValues, createHandler)
 
     return (
         <div className="d-flex p-2 center">

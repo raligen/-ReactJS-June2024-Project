@@ -1,18 +1,31 @@
-//import { articlesAPI } from "../../api/articles-api";
-import {useGetAllArticles} from '../../hooks/useArticles';
+import { useState, useEffect } from "react";
+import * as requester from "../../api/requester";
+import articlesAPI from "../../api/articles-api";
+import { Link } from "react-router-dom";
+
 import ArticleListItem from './article-list-item/ArticleListItem';
 
 export default function ArticleList(){
-    const [articles, setArticles] = useGetAllArticles();
+    const [allNews, setAllNews] = useState([]);
+
+
+    useEffect(() => {
+        (async () => {
+              const result = await articlesAPI.getAll();
+              setAllNews(result);
+        })();
+      }, []);
 
 
    
     return (
-        <>
-           <div className="container pt-4 pb-4 align-self-center">          
-              <h5 className="m-0 pt-0 font-weight-bold spanborder">
-                <span>Categories</span>
-              </h5>
+
+
+        <div className="container">
+        {/* <div className="card border-0 mb-4 box-shadow h-xl-300">       */}
+        <h5 className="m-0 pt-0 font-weight-bold spanborder">
+            <span>Categories</span>
+        </h5>        
               
               <ul className="nav justify-content-center">
                     <li className="nav-item">
@@ -20,11 +33,14 @@ export default function ArticleList(){
                     </li>
               </ul>
         
-        {articles.length > 0
-            ? articles.map(article => <ArticleListItem key={article._id} {...article} />)
+        
+        {allNews.length > 0
+            ? allNews.map(articles => 
+               <ArticleListItem key={articles._id} {...articles} />)
+                 
             : <h3>No articles yet.</h3>
         }
             </div>
-        </>
+       
     );
 }
