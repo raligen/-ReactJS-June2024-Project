@@ -1355,8 +1355,7 @@
                 category: [
                     "technology"
                 ],
-                _createdOn: 1723021531392,
-                _id: "064c323f-a025-4b78-acab-833f372c4067"
+                _createdOn: 1723021531392
             },
             "39d1a33b-b40a-4ef0-89b9-30350c96bfaa": {
                 _ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
@@ -1371,8 +1370,7 @@
                 category: [
                     "technology"
                 ],
-                _createdOn: 1723025259401,
-                _id: "39d1a33b-b40a-4ef0-89b9-30350c96bfaa"
+                _createdOn: 1723025259401
             },
             "7e58bac7-e47c-48c5-b913-5fd56947618f": {
                 _ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
@@ -1388,8 +1386,7 @@
                     "technology",
                     "science"
                 ],
-                _createdOn: 1723025350983,
-                _id: "7e58bac7-e47c-48c5-b913-5fd56947618f"
+                _createdOn: 1723025350983
             },
             "d303a32d-be1f-4d57-8bdc-ed29a3a4dae9": {
                 _ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
@@ -1404,8 +1401,7 @@
                 category: [
                     "technology"
                 ],
-                _createdOn: 1723025396749,
-                _id: "d303a32d-be1f-4d57-8bdc-ed29a3a4dae9"
+                _createdOn: 1723025396749
             },
            "a5a12758-f309-45e7-b69c-33bd60ba1cd9": {
                 _ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
@@ -1420,8 +1416,7 @@
                 category: [
                     "technology"
                 ],
-                _createdOn: 1723025453161,
-                _id: "a5a12758-f309-45e7-b69c-33bd60ba1cd9"
+                _createdOn: 1723025453161
             },
             "16f3ae83-90db-4200-a032-6a5f1637c61b": {
                 _ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
@@ -1436,8 +1431,7 @@
                 category: [
                     "business"
                 ],
-                _createdOn: 1723025587123,
-                _id: "16f3ae83-90db-4200-a032-6a5f1637c61b"
+                _createdOn: 1723025587123
             },
             "b79ac992-3084-4b51-8ff1-c6751154aa18": {
                 _ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
@@ -1452,8 +1446,7 @@
                 category: [
                     "business"
                 ],
-                _createdOn: 1723025689641,
-                _id: "b79ac992-3084-4b51-8ff1-c6751154aa18"
+                _createdOn: 1723025689641
             },
            "5ec38068-74e7-42ee-a975-cb45fed995da": {
                 _ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
@@ -1469,8 +1462,7 @@
                     "top",
                     "politics"
                 ],
-                _createdOn: 1723025724648,
-                _id: "5ec38068-74e7-42ee-a975-cb45fed995da"
+                _createdOn: 1723025724648
             },
             "54a5c2ff-e239-4e7a-bc91-9e9dbf8eaa19": {
                 _ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
@@ -1486,8 +1478,7 @@
                     "top",
                     "politics"
                 ],
-                _createdOn: 1723025751006,
-                _id: "54a5c2ff-e239-4e7a-bc91-9e9dbf8eaa19"
+                _createdOn: 1723025751006
             },
             "dacaa66b-58d0-4654-9232-beabc752bdc0": {
                 _ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
@@ -1503,8 +1494,7 @@
                     "top",
                     "politics"
                 ],
-                _createdOn: 1723025781853,
-                _id: "dacaa66b-58d0-4654-9232-beabc752bdc0"
+                _createdOn: 1723025781853
             },
            "3cd6293c-4dfe-41bd-8893-43f6aabca5e5": {
                 _ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
@@ -1520,8 +1510,7 @@
                     "top",
                     "politics"
                 ],
-                _createdOn: 1723025841216,
-                _id: "3cd6293c-4dfe-41bd-8893-43f6aabca5e5"
+                _createdOn: 1723025841216
             },
             "be1b3cd9-9ae4-4275-a982-77cbf95935bb": {
                 _ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
@@ -1537,8 +1526,7 @@
                     "top",
                     "politcs"
                 ],
-                _createdOn: 1723025865360,
-                _id: "be1b3cd9-9ae4-4275-a982-77cbf95935bb"
+                _createdOn: 1723025865360
             },
             "50d7b2da-302e-4bff-bfc9-a353d20dfb5b": {
                 _ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
@@ -1554,8 +1542,7 @@
                     "top",
                     "politics"
                 ],
-                _createdOn: 1723025873567,
-                _id: "50d7b2da-302e-4bff-bfc9-a353d20dfb5b"
+                _createdOn: 1723025873567
             },
             "0d913761-8aab-4f9e-8a4c-fd7d61cddf3e": {
                 _ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
@@ -1571,8 +1558,7 @@
                     "top",
                     "politics"
                 ],
-                _createdOn: 1723025979056,
-                _id: "0d913761-8aab-4f9e-8a4c-fd7d61cddf3e"
+                _createdOn: 1723025979056
             },
             "4790f310-81e7-420a-a461-5dbd30af0778": {
                 _ownerId: "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
@@ -1588,8 +1574,7 @@
                     "top",
                     "politics"
                 ],
-                _createdOn: 1723026047214,
-                _id: "4790f310-81e7-420a-a461-5dbd30af0778"
+                _createdOn: 1723026047214
             }
         },        
     	recipes: {

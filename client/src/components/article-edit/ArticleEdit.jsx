@@ -29,7 +29,7 @@ export default function ArticleEdit(){
         const isConfirmed = confirm('Are you sure you want to update this article?');
         if (isConfirmed) { 
         await articlesAPI.update(articleId, values);
-        navigate(`/articles/${articleId}/details`);
+        navigate(`/articles/${articleId}`);
         }
     });
 

@@ -7,11 +7,11 @@ export function useForm(initialValues, submitCallback) {
         setValues(initialValues);
     }, [initialValues]);
 
-    const changeHandler= (e) => {
+    const changeHandler = (e) => {
         setValues(state => ({
             ...state,
-            [e.target.name]: e.target.value
-        }))
+            [e.target.name]: e.target.value,
+        }));
     }
     
     const submitHandler= async (e) => {

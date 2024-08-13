@@ -22,7 +22,6 @@ export const getLatest = async () => {
     return latestNews;
 };
 
-
 export const getOne = (articleId) => requester.get(`${BASE_URL}/${articleId}`);
 
 export const create = (articleData) => requester.post(`${BASE_URL}`, articleData)

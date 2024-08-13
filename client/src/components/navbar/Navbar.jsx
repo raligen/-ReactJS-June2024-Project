@@ -37,8 +37,8 @@ export default function Navbar(){
               
             </ul>
 
-              {/* {isAuthenticated
-                  ? ( */}
+              {isAuthenticated
+                  ? (
                       <ul id="user" className="navbar-nav ml-auto d-flex align-items-center">
                         <li className="nav-item highlight pl-1">
                           <Link className="btn" style={{backgroundColor: "#ff8533", color: "#fff", border: "1px solid #ff8533"}}
@@ -61,8 +61,8 @@ export default function Navbar(){
                           </Link>
                         </li>
                       </ul>
-                  {/* // )
-                  // : ( */}
+                   )
+                  : ( 
                       <ul id="guest" className="navbar-nav ml-auto d-flex align-items-center">
                         <li className="nav-item highlight pl-1">
                           <Link
@@ -81,9 +81,9 @@ export default function Navbar(){
                           </Link>
                         </li>
                       </ul>
-                  {/* )               
+                   )               
               }
-               */}
+              
           </div>
         </div>
       </nav>
