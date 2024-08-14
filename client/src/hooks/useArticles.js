@@ -3,20 +3,20 @@ import { useParams } from "react-router-dom";
 import articlesAPI from '../api/articles-api';
 
 export function useGetAllArticles() {
-    const {articleId} = useParams()    
+    const {articleId} = useParams();    
     const [username, setUsername] = useState('');
     const [comment, setComment] = useState('');
     const [article, setArticle] = useGetOneArticles(articleId);
 
     useEffect(() => {
         (async () => {
-            const result = await articlesAPI.getOne(articleId);
+            const result = await articlesAPI.getAll(articleId);
 
             setArticle(result);
         })();
     }, []);
 
-    return [article, setArticle]
+    return [article, setArticle];
     
 }
 
@@ -26,7 +26,8 @@ export function useGetOneArticles(articleId) {
     useEffect(() => {
         (async () => {
             const result = await articlesAPI.getOne(articleId);
-
+            console.log(result);
+            console.log(articleId);
             setArticle(result);
         })();
     }, [articleId]);
@@ -36,6 +37,8 @@ export function useGetOneArticles(articleId) {
         setArticle,
     ];
 }
+
+
 
 export function useCreateArticle() {
     const articleCreateHandler = (articleData) => articlesAPI.create(articleData);

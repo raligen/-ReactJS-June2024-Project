@@ -32,7 +32,7 @@ const {articleId} = useParams();
                     </small>
                     <small className="text-muted">{pubDate}</small>
                  </div>  
-                <Link to={`/articles/${_id}`} className="btn btn-dark">
+                <Link to={`/articles/${_id}/details`} className="btn btn-dark">
                     Read More
                 </Link>
               </div>

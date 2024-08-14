@@ -1,4 +1,4 @@
-import requester from "./requester";
+import * as requester from "./requester";
 
 const BASE_URL = 'http://localhost:3030/data/articles/';
 
@@ -20,6 +20,19 @@ export const getLatest = async () => {
     const latestNews = Object.values(result);
 
     return latestNews;
+};
+
+export const getDetails = async () => {
+    const URLSearchParams = new URLSearchParams({
+        select: `title,creator,content,pubDate,image_url,category`
+    });
+
+    const result = await requester.get(`${BASE_URL}?${urlSearchParams.toString()}`);
+
+    const articleDetails = Object.values(result);
+
+    return articleDetails;
+
 };
 
 export const getOne = (articleId) => requester.get(`${BASE_URL}/${articleId}`);

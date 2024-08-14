@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import { Link } from "react-router-dom";
-import articlesAPI from "../../api/articles-api";
 import { useForm } from "../../hooks/useForm";
+import articlesAPI from "../../api/articles-api";
 import { useAuthContext } from "../../contexts/AuthContext";
 import { useGetOneArticles} from "../../hooks/useArticles";
 import commentsAPI from "../../api/comments-api";
@@ -16,20 +15,12 @@ const initialValues = {
   comment: ''
 }
 
-export default function ArticleDetails({
-  _id, 
-  title, 
-  description,
-  content, 
-  category,
-  creator, 
-  image_url, 
-  pubDate
-}){
+export default function ArticleDetails(){
   const navigate = useNavigate();
   const {articleId} = useParams();      
-  const [comments, setComments] = useGetAllComments(articleId);
-  const createComment = useCreateComment();
+  console.log(articleId);
+  //const [comments, setComments] = useGetAllComments(articleId);
+  //const createComment = useCreateComment();
   // const {email, userId } = useAuthContext();
   const [article] = useGetOneArticles(articleId);
   const { isAuthenticated } = useAuthContext(); 
